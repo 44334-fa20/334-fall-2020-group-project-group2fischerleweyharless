@@ -22,7 +22,7 @@ body{
 nav ul li{
     display: inline-block;
     list-style-type: none;
-    padding: 30px 25px;
+    padding: 20px 25px;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.15em;
@@ -32,11 +32,42 @@ nav ul li a{
     color: black;
 }
 nav ul li:hover{
+    border-radius: 15px;
+    background-color: #EDEDED;
     cursor: pointer;
     z-index: 2;
     color: blue;
     transition: color .25s ease-in-out;
 }
+#hero-image{
+    position: relative;
+}
 #hero-image img{
     width: 100%;
+}
+.bottom-left{
+    position: absolute;
+    bottom: 125px;
+    left: 50px;
+}
+.bottom-left-button{
+    position: absolute;
+    bottom: 85px;
+    left: 50px;
+    background-color: white;
+    padding: 10px 20px;
+    border: 5px solid white;
+    border-radius: 15px;
+    font-weight: 700;
+}
+.bottom-left-button:hover{
+    cursor: pointer;
+    background-color: transparent;
+    transition: background-color .15s ease-in-out;
+    color: white;
+}
+.hero-text{
+    color: white;
+    font-size: 1.75em;
+    width: 35%;
 }
