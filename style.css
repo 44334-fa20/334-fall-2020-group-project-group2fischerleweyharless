@@ -73,3 +73,48 @@ nav ul li:hover{
     font-size: 1.75em;
     width: 35%;
 }
+@media screen and (max-width: 1030px) {
+    /* Styles go here */
+    nav ul li{
+        font-size: 1em;
+        padding: 10px 15px;
+    }
+    .bottom-left{
+        bottom: 90px;
+    }
+    .bottom-left-button{
+        bottom: 40px;
+    }
+    .hero-text{
+        font-size: 1.5em;
+    }
+}
+@media screen and (max-width: 770px) {
+    .logo{
+        display: none;
+    }
+    nav ul li{
+        font-size: .75em;
+        font-weight: 300;
+        padding: 10px 2px 10px 2px;
+    }
+    nav{
+        width: 100%;
+    }
+    #hero-image{
+        display: none;
+    }
+    .hero-text{
+        display: none;
+    }
+    .bottom-left-button{
+        display: none;
+    }
+    .bottom-left{
+        display: none;
+    }
+    #wrapper{
+        width: 80%;
+        margin: auto;
+    }
+}
