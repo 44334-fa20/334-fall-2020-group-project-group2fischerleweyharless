@@ -73,6 +73,14 @@ nav ul li:hover{
     font-size: 1.75em;
     width: 35%;
 }
+#black-bar{
+    background-color: black;
+    color: white;
+    display: flex;
+}
+#black-bar p{
+    margin-left: 20px;
+}
 @media screen and (max-width: 1030px) {
     /* Styles go here */
     nav ul li{
