@@ -142,6 +142,13 @@ nav ul li:hover {
 
   #wrapper {
     width: 80%;
-    margin: auto; } }
+      margin: auto; }}
+    
+  #PeoplePics{
+    text-align: center;}
+
+  #backgroundcolorstrip{
+    background-color: #ddd;
+}
 
 /*# sourceMappingURL=style.css.map */
