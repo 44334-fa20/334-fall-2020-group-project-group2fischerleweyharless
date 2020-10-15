@@ -48,7 +48,8 @@ nav ul li:hover {
 .bottom-left {
   position: absolute;
   bottom: 125px;
-  left: 50px; }
+  left: 50px;
+  font-family: 'Shadows Into Light', cursive; }
 
 .bottom-left-button {
   position: absolute;
@@ -68,8 +69,10 @@ nav ul li:hover {
 
 .hero-text {
   color: white;
-  font-size: 1.75em;
-  width: 35%; }
+  width: 35%;
+  font-size: 2em;
+  font-weight: bold;
+  letter-spacing: 2px; }
 
 #black-bar {
   background-color: black;
@@ -151,5 +154,11 @@ nav ul li:hover {
   #wrapper {
     width: 80%;
     margin: auto; } }
+@media screen and (min-width: 1920px) {
+  .logo {
+    width: 15%; }
+
+  #hero-image img {
+    height: 350px; } }
 
 /*# sourceMappingURL=style.css.map */
