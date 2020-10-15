@@ -81,6 +81,30 @@ nav ul li:hover{
 #black-bar p{
     margin-left: 20px;
 }
+#footer{
+    border-top: 5px solid red;
+    display:flex;
+    background-color: black;
+    color: white;
+    justify-content: space-around;
+    align-self: center;
+}
+#footer ul li{
+    list-style-type: none;
+    padding-top: 15px;
+    
+}
+#footer-caption{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    top: 0;
+    bottom: 0;
+}
+#whitespace{
+    height: 150px;
+}
 @media screen and (max-width: 1030px) {
     /* Styles go here */
     nav ul li{
