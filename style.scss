@@ -1,4 +1,6 @@
 $footer-color: black;
+$scrumptious: #9FBEDD;
+$scrumptious-light: #e4f0fd;
 
 html, body {
     margin: 0;
@@ -37,10 +39,9 @@ nav ul li a{
 }
 nav ul li:hover{
     border-radius: 15px;
-    background-color: #EDEDED;
+    background-color: $scrumptious-light;
     cursor: pointer;
     z-index: 2;
-    color: blue;
     transition: color .25s ease-in-out;
 }
 #hero-image{
@@ -61,7 +62,6 @@ nav ul li:hover{
     background-color: white;
     padding: 10px 20px;
     border: 5px solid white;
-    border-radius: 15px;
     font-weight: 700;
 }
 .bottom-left-button:hover{
@@ -88,7 +88,6 @@ nav ul li:hover{
     background-color: $footer-color;
     color: white;
     justify-content: space-around;
-    align-self: center;
     padding-top: 30px;
 }
 #footer ul li{
@@ -138,11 +137,11 @@ nav ul li:hover{
 }
 #spacer{
     height: 2px;
-    background-color: #DEDEDE;
+    background-color: #9FBEDD;
 }
 #catering-button{
     padding: 15px;
-    background-color: orange;
+    background-color: $scrumptious;
     color: white;
     border: none;
     font-weight: bold;
