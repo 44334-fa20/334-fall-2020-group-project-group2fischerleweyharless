@@ -84,7 +84,6 @@ nav ul li:hover{
     margin-left: 20px;
 }
 #footer{
-    border-top: 5px solid red;
     display:flex;
     background-color: $footer-color;
     color: white;
@@ -96,6 +95,10 @@ nav ul li:hover{
     padding-top: 15px;
     
 }
+#footer ul li a{
+    color: white;
+    text-decoration: underline;
+}
 #footer-caption{
     background-color: black;
     color: white;
@@ -106,6 +109,9 @@ nav ul li:hover{
 }
 #whitespace{
     height: 150px;
+}
+#col-1{
+    width: 25%;
 }
 @media screen and (max-width: 1030px) {
     /* Styles go here */
