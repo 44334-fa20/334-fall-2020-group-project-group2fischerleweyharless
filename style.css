@@ -82,6 +82,7 @@ nav ul li:hover {
   background-color: black;
   color: white;
   justify-content: space-around;
+  border-top: 10px solid #9FBEDD;
   padding-top: 30px; }
 
 #footer ul li {
