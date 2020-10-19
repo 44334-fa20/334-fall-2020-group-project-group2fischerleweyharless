@@ -142,13 +142,9 @@ nav ul li:hover {
 
   #wrapper {
     width: 80%;
-      margin: auto; }}
-    
-  #PeoplePics{
-    text-align: center;}
+    margin: auto; }
 
-  #backgroundcolorstrip{
-    background-color: #ddd;
-}
+  #PeoplePics {
+    text-align: center; } }
 
 /*# sourceMappingURL=style.css.map */
