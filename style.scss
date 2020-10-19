@@ -108,10 +108,21 @@ nav ul li:hover{
     bottom: 0;
 }
 #whitespace{
-    height: 150px;
+    height: 50px;
 }
 #col-1{
     width: 25%;
+}
+#frame-layout{
+    display: flex;
+    align-items: center;
+}
+#paragraph-container{
+    padding: 25px;
+}
+#spacer{
+    height: 2px;
+    background-color: #DEDEDE;
 }
 @media screen and (max-width: 1030px) {
     /* Styles go here */
