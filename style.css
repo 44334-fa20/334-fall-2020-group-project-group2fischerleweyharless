@@ -162,6 +162,9 @@ nav ul li a:hover {
 #text-align {
   text-align: center; }
 
+#PeoplePics img {
+  width: 100%; }
+
 @media screen and (max-width: 1030px) {
   /* Styles go here */
   nav ul li {
