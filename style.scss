@@ -170,6 +170,30 @@ nav ul li a:hover{
 #PeoplePics img{
     width: 100%;
 }
+.abt-1{
+    width: 33%;
+    margin: auto;
+    text-align: center;
+}
+.abt-2{
+    width: 33%;
+    margin: auto;
+    text-align: center;
+}
+.abt-3{
+    width: 33%;
+    margin: auto;
+    text-align: center;
+}
+.column{
+    display: flex;
+    align-items: center;
+}
+.column img{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
 @media screen and (max-width: 1030px) {
     /* Styles go here */
     nav ul li{
