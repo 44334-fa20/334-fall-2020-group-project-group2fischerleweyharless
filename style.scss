@@ -137,7 +137,7 @@ nav ul li a:hover{
     width: 50%;
 }
 #paragraph-container{
-    padding: 25px;
+    padding: 50px;
 }
 #spacer{
     height: 2px;
@@ -155,12 +155,9 @@ nav ul li a:hover{
     cursor: pointer;
     background-color: antiquewhite;
 }
-#gallery-header{
-    text-align: center;
-}
 #gallery-flex{
     display: flex;
-    flex-flow:row wrap;  
+    flex-flow:row wrap; 
 }
 #gallery-flex img{
     width: 300px;
