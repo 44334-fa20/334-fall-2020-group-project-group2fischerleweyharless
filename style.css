@@ -129,7 +129,7 @@ nav ul li a:hover {
   width: 50%; }
 
 #paragraph-container {
-  padding: 25px; }
+  padding: 50px; }
 
 #spacer {
   height: 2px;
@@ -146,9 +146,6 @@ nav ul li a:hover {
 #catering-button:hover {
   cursor: pointer;
   background-color: antiquewhite; }
-
-#gallery-header {
-  text-align: center; }
 
 #gallery-flex {
   display: flex;
@@ -209,13 +206,5 @@ nav ul li a:hover {
 
   #PeoplePics {
     text-align: center; } }
-h2 {text-align: center;}
-
-.colorstrip {
-    height: 6px;
-    background-color: #000;
-    width: 100%;
-    margin: 5px;
-
 
 /*# sourceMappingURL=style.css.map */
