@@ -209,5 +209,13 @@ nav ul li a:hover {
 
   #PeoplePics {
     text-align: center; } }
+h2 {text-align: center;}
+
+.colorstrip {
+    height: 6px;
+    background-color: #000;
+    width: 100%;
+    margin: 5px;
+
 
 /*# sourceMappingURL=style.css.map */
