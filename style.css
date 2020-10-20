@@ -116,7 +116,7 @@ nav ul li:hover {
 
 #frame-layout-2 {
   display: flex;
-  align-items: top; }
+    align-items: top; }
 
 #col-home-1 {
   padding: 15px 25px;
@@ -172,7 +172,7 @@ nav ul li:hover {
     font-size: 1.5em; } }
 @media screen and (max-width: 770px) {
   .logo {
-    display: none; }
+      display: none; }
 
   nav ul li {
     font-size: .75em;
@@ -199,6 +199,34 @@ nav ul li:hover {
     margin: auto; }
 
   #PeoplePics {
-    text-align: center; } }
+      text-align: center;
+    }}
+
+.colorstrip {
+    height: 6px;
+    background-color: #000;
+    width: 100%;
+    margin: 5px;}
+   
+h2 { display: flex;
+    flex-direction: row;
+    }
+    h2:before,
+h2:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 2px solid #000;
+    height: 15px;
+}
+.column {
+  float: left;
+  width: 32%;
+  padding: 5px;
+}
+h3 { font-size: 2em;} 
+    
+    
+
+
 
 /*# sourceMappingURL=style.css.map */
