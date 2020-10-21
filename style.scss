@@ -211,14 +211,18 @@ nav ul li a:hover{
 }
 #col-home img{
     width: 70%;
+    padding: 20px;
+    border: 10px solid $scrumptious;
 }
 #col-home-2 img{
     width: 60%;
     padding: 20px;
+    border: 10px solid $scrumptious;
 }
 #col-home-3 img{
     width: 60%;
     padding: 20px;
+    border: 10px solid $scrumptious;
 }
 @media screen and (max-width: 1030px) {
     /* Styles go here */
