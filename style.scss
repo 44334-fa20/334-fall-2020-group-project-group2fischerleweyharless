@@ -125,9 +125,6 @@ nav ul li a:hover{
 #small-whitespace{
     height: 25px;
 }
-#col-1{
-    width: 25%;
-}
 #frame-layout{
     display: flex;
     align-items: center;
@@ -135,14 +132,7 @@ nav ul li a:hover{
 #frame-layout-2{
     display: flex;
     align-items: top;
-}
-#col-home-1{
-    padding: 15px 25px;
-    width: 50%;
-}
-#col-home-2{
-    padding: 15px 25px;
-    width: 50%;
+    flex-direction: row;
 }
 #paragraph-container{
     padding: 50px;
@@ -199,8 +189,24 @@ nav ul li a:hover{
 }
 .column img{
     width: 50%;
+    height: 200px;
     display: block;
     margin: auto;
+}
+#image-container img{
+    width: 100%;
+}
+#col-1{
+    width: 20%;
+}
+#col-home img{
+    width: 80%;
+}
+#col-home-2 img{
+    width: 60%;
+}
+#col-home-3 img{
+    width: 60%;
 }
 @media screen and (max-width: 1030px) {
     /* Styles go here */
