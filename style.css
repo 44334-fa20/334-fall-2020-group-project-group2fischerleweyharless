@@ -189,14 +189,25 @@ nav ul li a:hover {
 #col-1 {
   width: 20%; }
 
+#col-home {
+  padding: 25px; }
+
+#col-home-2 {
+  padding: 25px; }
+
+#col-home-3 {
+  padding: 25px; }
+
 #col-home img {
-  width: 80%; }
+  width: 70%; }
 
 #col-home-2 img {
-  width: 60%; }
+  width: 60%;
+  padding: 20px; }
 
 #col-home-3 img {
-  width: 60%; }
+  width: 60%;
+  padding: 20px; }
 
 @media screen and (max-width: 1030px) {
   /* Styles go here */
