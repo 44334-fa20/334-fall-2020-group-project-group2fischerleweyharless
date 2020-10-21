@@ -61,17 +61,15 @@ nav ul li a:hover{
 }
 #hero-image .bottom-left-button{
     position: absolute;
-    top: 70%;
-    left: 13.5%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
+    bottom: 80px;
+    left: 100px;
     background-color: white;
     padding: 10px 20px;
     border: 5px solid white;
     font-weight: 700;
     font-size: 1.0em;
 }
-.bottom-left-button:hover{
+#hero-image .bottom-left-button:hover{
     cursor: pointer;
     background-color: transparent;
     transition: background-color .15s ease-in-out;
