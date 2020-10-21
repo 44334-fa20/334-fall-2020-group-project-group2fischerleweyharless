@@ -128,11 +128,12 @@ nav ul li a:hover{
 #frame-layout{
     display: flex;
     align-items: center;
+    
 }
 #frame-layout-2{
     display: flex;
     align-items: top;
-    flex-direction: row;
+    justify-content: center;
 }
 #paragraph-container{
     padding: 50px;
