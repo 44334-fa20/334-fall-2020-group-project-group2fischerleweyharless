@@ -46,7 +46,8 @@ nav ul li a:hover {
 
 #hero-image img {
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  position: relative; }
 
 #hero-image .bottom-left {
   position: absolute;
@@ -78,7 +79,8 @@ nav ul li a:hover {
   background-color: black;
   color: white;
   display: flex;
-  font-weight: bold; }
+  font-weight: bold;
+  height: 50px; }
 
 #black-bar p {
   margin-left: 20px; }
