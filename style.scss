@@ -112,12 +112,11 @@ nav ul li a:hover{
     text-decoration: underline;
 }
 #footer-caption{
+    margin-top: 0;
     background-color: black;
     color: white;
     text-align: center;
     padding: 25px;
-    top: 0;
-    bottom: 0;
 }
 #whitespace{
     height: 50px;
@@ -140,7 +139,7 @@ nav ul li a:hover{
 }
 #spacer{
     height: 2px;
-    background-color: #9FBEDD;
+    background-color: #EDEDED;
 }
 #catering-button{
     padding: 15px;
@@ -196,6 +195,7 @@ nav ul li a:hover{
 }
 #image-container img{
     width: 100%;
+    border: 10px solid $scrumptious;
 }
 #col-1{
     width: 20%;
