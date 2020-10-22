@@ -176,8 +176,7 @@ nav ul li a:hover {
 .Marcie {
   width: 40%;
   margin: auto;
-  text-align: center;
-  border: 5px solid #9FBEDD; }
+  text-align: center;}
 
 .column {
   display: flex;
@@ -185,15 +184,14 @@ nav ul li a:hover {
   }
 
 .column img {
-  width: 50%;
-  height: 200px;
+  width: 75%;
+  height: 400px;
   display: block;
   margin: auto; }
 
 #image-container img {
   width: 100%;
   border: 10px solid #9FBEDD; }
-
 #col-1 {
   width: 20%; }
 
