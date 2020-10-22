@@ -173,11 +173,12 @@ nav ul li a:hover {
   text-align: center; }
 
 .Marcie {width: 40%;
-  height: 40%;
   margin: auto;
-  text-align: center; }
+  text-align: center;
+border: 5px solid #9FBEDD;}
 
 }
+
 .column {
   display: flex;
   align-items: center; }
@@ -217,6 +218,7 @@ nav ul li a:hover {
 #col-home-3 img {
   width: 60%;
   padding: 20px;
+<<<<<<< HEAD
   border: 10px solid #9FBEDD; }
 
 #catering-nav {
@@ -248,45 +250,37 @@ nav ul li a:hover {
 @media screen and (min-width: 1440px) {
   body {
     background-color: blue; } 
-    
-    #hero-image .bottom-left{
-        font-size: 2.5em;
-        bottom: 150px;
-    }
-    #hero-image .bottom-left-button{
-        width: 200px;
-        height: 75px;
-    }
 
+  border: 10px solid #9FBEDD;}
 
-}
-@media screen and (min-width: 1920px) {
-  body {
-    background-color: red; 
-    }
-    #hero-image .bottom-left{
-        font-size: 2.5em;
-        bottom: 200px;
-    }
-    #hero-image .bottom-left-button{
-        bottom: 125px;
-        width: 200px;
-        height: 75px;
-    }
+.column1 {
+  float: left;
+  width: 50%;
+height: 70%;
+  padding: 30px 14px 0px;
     
+/* for owner page columns */
 }
-@media screen and (max-width: 1040px) {
+
+/* For owner page row */
+*{box-sizing: border-box;}
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 1030px) {
   /* Styles go here */
   nav ul li {
-    font-size: .75em;
- }
+    font-size: 1em;
+    padding: 10px 15px; }
 
   .bottom-left {
-        bottom: 10px;
-    }
+    bottom: 90px; }
 
   .bottom-left-button {
-    bottom: 600px; }
+    bottom: 40px; }
 
   .hero-text {
     font-size: 1.5em; } }
@@ -320,5 +314,9 @@ nav ul li a:hover {
 
   #PeoplePics {
     text-align: center; } }
+
+h2 { text-align: center;}
+
+
 
 /*# sourceMappingURL=style.css.map */
