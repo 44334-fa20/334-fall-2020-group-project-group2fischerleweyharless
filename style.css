@@ -215,6 +215,21 @@ nav ul li a:hover {
   padding: 20px;
   border: 10px solid #9FBEDD;}
 
+.column1 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+    
+/* for owner page columns */
+}
+
+/* For owner page row */
+*{box-sizing: border-box;}
+.row1:after {
+  content: "";
+  display: table;
+  clear: both; }
+
 @media screen and (max-width: 1030px) {
   /* Styles go here */
   nav ul li {
