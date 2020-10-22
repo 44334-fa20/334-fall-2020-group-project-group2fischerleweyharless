@@ -173,9 +173,9 @@ nav ul li a:hover {
   text-align: center; }
 
 .Marcie {width: 40%;
-  height: 40%;
   margin: auto;
-  text-align: center; }
+  text-align: center;
+border: 5px solid #9FBEDD;}
 
 }
 
@@ -223,7 +223,8 @@ nav ul li a:hover {
 .column1 {
   float: left;
   width: 50%;
-  padding: 10px;
+height: 70%;
+  padding: 30px 14px 0px;
     
 /* for owner page columns */
 }
@@ -233,7 +234,8 @@ nav ul li a:hover {
 .row1:after {
   content: "";
   display: table;
-  clear: both; }
+  clear: both;
+}
 
 @media screen and (max-width: 1030px) {
   /* Styles go here */
