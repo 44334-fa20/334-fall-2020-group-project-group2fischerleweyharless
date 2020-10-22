@@ -185,7 +185,7 @@ nav ul li a:hover {
 
 .column img {
   width: 75%;
-  height: 400px;
+  height: 300px;
   display: block;
   margin: auto; }
 
@@ -220,12 +220,16 @@ nav ul li a:hover {
 <<<<<<< HEAD
 <<<<<<< HEAD
   border: 10px solid #9FBEDD; }
+
 /* Abby's code for 2 column layout */
 .column1 {
   float: left;
-  width: 50%;
-  padding: 45px 0px 20px;
-  height: 400px; /* Should be removed. Only for demonstration */
+  width: 40%;
+  margin: auto;
+  padding: 5px 20px 100px;
+display: table;
+border: 1px solid #000;
+
 }
 
 /* Clear floats after the columns */
@@ -297,7 +301,7 @@ nav ul li a:hover {
 
 @media screen and (max-width: 1440px) {
   body {
-    background-color: blue; } }
+    background-color: white; } }
 @media screen and (min-width: 1920px) {
   body {
     background-color: red; } }
