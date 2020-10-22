@@ -181,7 +181,8 @@ nav ul li a:hover {
 
 .column {
   display: flex;
-  align-items: center; }
+  align-items: center; 
+  }
 
 .column img {
   width: 50%;
@@ -221,6 +222,19 @@ nav ul li a:hover {
 <<<<<<< HEAD
 <<<<<<< HEAD
   border: 10px solid #9FBEDD; }
+/* Abby's code for 2 column layout */
+.column1 {
+  float: left;
+  width: 50%;
+  padding: 45px 0px 20px;
+  height: 400px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row1:after {
+  content: "";
+  display: table;
+    clear: both;}
 
 #catering-nav {
   margin: auto;
@@ -303,7 +317,9 @@ nav ul li a:hover {
 
   .hero-text {
     font-size: 1.5em; } }
+
 h2{text-align: center;}
+
 @media screen and (max-width: 770px) {
   .logo {
     display: none; }
