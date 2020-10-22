@@ -172,6 +172,8 @@ nav ul li a:hover {
   margin: auto;
   text-align: center; }
 
+}
+
 .column {
   display: flex;
   align-items: center; }
@@ -211,7 +213,7 @@ nav ul li a:hover {
 #col-home-3 img {
   width: 60%;
   padding: 20px;
-  border: 10px solid #9FBEDD; }
+  border: 10px solid #9FBEDD;}
 
 @media screen and (max-width: 1030px) {
   /* Styles go here */
@@ -257,5 +259,9 @@ nav ul li a:hover {
 
   #PeoplePics {
     text-align: center; } }
+
+h2 { text-align: center;}
+
+
 
 /*# sourceMappingURL=style.css.map */
