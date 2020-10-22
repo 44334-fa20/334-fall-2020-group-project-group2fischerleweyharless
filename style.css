@@ -213,6 +213,15 @@ nav ul li a:hover {
   padding: 20px;
   border: 10px solid #9FBEDD; }
 
+#catering-nav {
+  margin: auto; }
+
+@media screen and (max-width: 1440px) {
+  body {
+    background-color: blue; } }
+@media screen and (min-width: 1920px) {
+  body {
+    background-color: red; } }
 @media screen and (max-width: 1030px) {
   /* Styles go here */
   nav ul li {
