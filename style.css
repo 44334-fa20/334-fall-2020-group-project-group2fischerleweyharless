@@ -180,14 +180,16 @@ nav ul li a:hover {
 
 .column {
   display: flex;
-  align-items: center; 
+  align-items: center;
+    width:100%;
+      
   }
 
-.column img {
-  width: 55%;
-  height: 300px;
-  display: block;
-  margin: auto; }
+.column img{
+    width: 100%;
+    height: 100px;
+    display: block;
+    margin: auto;}
 
 #image-container img {
   width: 100%;
@@ -222,13 +224,14 @@ nav ul li a:hover {
   border: 10px solid #9FBEDD; }
 
 /* Abby's code for 2 column layout */
-.column1 {
+.column4 {
   float: left;
   width: 100%;
   margin:auto;
-  padding: 50px 10px 10px;
-  display: table-cell;
-border: 1px solid #000;}
+  padding: 0px 10px 50px;
+  display: table;
+ 
+}
     
 
 /* Clear floats after the columns */
@@ -264,14 +267,14 @@ h1 {
 
 /* Add padding BETWEEN each column (if you want) */
 .row,
-.row > .column {
+.row > .column4 {
   padding: 8px;
 }
 
 /* Create four equal columns that floats next to each other */
-.column {
+.column4 {
   float: left;
-  width: 25%;
+    width: 25%
 }
 
 /* Clear floats after rows */
@@ -289,19 +292,22 @@ h1 {
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 900px) {
-  .column {
+  .column4 {
     width: 50%;
   }
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .column {
+  .column4 {
     width: 100%;
   }
 }
 /* End of Abby's Staff Page */
 
+/* Abby's About page photo aligns */
+.column {
+    float: left;}
 #catering-nav {
   margin: auto;
   list-style-type: none;
