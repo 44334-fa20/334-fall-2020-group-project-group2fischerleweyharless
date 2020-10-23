@@ -219,8 +219,7 @@ nav ul li a:hover {
 #col-home-3 img {
   width: 60%;
   padding: 20px;
-<<<<<<< HEAD
-<<<<<<< HEAD
+
   border: 10px solid #9FBEDD; }
 
 /* Abby's code for 2 column layout */
@@ -332,7 +331,15 @@ h1 {
   background-color: #e4f0fd;
   cursor: pointer;
   z-index: 2;
-  transition: color .25s ease-in-out; 
+    transition: color .25s ease-in-out; }
+
+.column1 {
+  float: left;
+  width: 100%;
+  margin:auto;
+  padding: 10px 10px 10px;
+  display: table-cell;
+border: 1px solid #000;}
 
 @media screen and (min-width: 1440px) {
   body {
