@@ -7,6 +7,11 @@
   #mobile-nav {
     display: none; }
 
+  @keyframes fadeInAnimation {
+    0% {
+      opacity: 0; }
+    100% {
+      opacity: 1; } }
   body {
     min-height: 100vh;
     padding: 0;
@@ -69,7 +74,8 @@
     font-size: 2em;
     color: white;
     font-size: 2em;
-    width: 25%; }
+    width: 25%;
+    animation: fadeInAnimation ease 1.5s; }
 
   #hero-image .left-button {
     position: absolute;
@@ -78,7 +84,8 @@
     background-color: white;
     padding: 10px 20px;
     border: 5px solid white;
-    font-size: 1.25em; }
+    font-size: 1.25em;
+    animation: fadeInAnimation ease 1.5s; }
 
   #hero-image .left-button:hover {
     cursor: pointer;
@@ -129,7 +136,8 @@
 
   #frame-layout {
     display: flex;
-    align-items: center; }
+    align-items: center;
+    animation: fadeInAnimation ease 1.5s; }
 
   #frame-layout-2 {
     display: flex;
@@ -156,6 +164,7 @@
     flex-flow: row wrap; }
 
   #gallery-flex img {
+    animation: fadeInAnimation ease 2s;
     width: 300px;
     height: 300px;
     padding: 25px; }
