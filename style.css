@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
 /* Extra large devices (large laptops and desktops, 1920px and up) */
 @media only screen and (max-width: 1920px) {
   html,
@@ -69,6 +71,7 @@
     position: relative; }
 
   #hero-image .left-text {
+    font-family: 'Courgette', cursive;
     position: absolute;
     bottom: 150px;
     left: 200px;
@@ -167,8 +170,8 @@
 
   #gallery-flex img {
     animation: fadeInAnimation ease 2s;
-    width: 300px;
-    height: 300px;
+    width: 25%;
+    height: 25%;
     padding: 25px; }
 
   #text-align {
@@ -189,6 +192,10 @@
     font-size: 1.5em;
     background-color: #E5E5E5; }
 
+  #paragraph-container h2 {
+    font-size: 2em;
+    font-family: 'Courgette', cursive; }
+
   #col-1 {
     width: 20%; }
 
@@ -199,6 +206,12 @@
     height: 100%;
     width: 33%;
     padding: 25px; }
+
+  #col-home h3 {
+    font-family: 'Courgette', cursive; }
+
+  .col-home h3 {
+    font-family: 'Courgette', cursive; }
 
   #col-home img {
     width: 100%;

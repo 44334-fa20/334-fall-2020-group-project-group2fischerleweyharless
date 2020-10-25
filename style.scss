@@ -3,7 +3,8 @@ $scrumptious: #9FBEDD;
 $scrumptious-light: #e4f0fd;
 $grey-color: #E5E5E5;
 
-
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 /* Extra large devices (large laptops and desktops, 1920px and up) */
 @media only screen and (max-width: 1920px) {
 
@@ -95,6 +96,7 @@ $grey-color: #E5E5E5;
     }
 
     #hero-image .left-text {
+        font-family: 'Courgette', cursive;
         position: absolute;
         bottom: 150px;
         left: 200px;
@@ -214,8 +216,8 @@ $grey-color: #E5E5E5;
 
     #gallery-flex img {
         animation: fadeInAnimation ease 2s;
-        width: 300px;
-        height: 300px;
+        width: 25%;
+        height: 25%;
         padding: 25px;
     }
 
@@ -241,7 +243,10 @@ $grey-color: #E5E5E5;
         font-size: 1.5em;
         background-color: $grey-color;
     }
-
+    #paragraph-container h2{
+        font-size: 2em;
+        font-family: 'Courgette', cursive;
+    }
     #col-1 {
         width: 20%;
     }
@@ -253,6 +258,12 @@ $grey-color: #E5E5E5;
         height: 100%;
         width: 33%;
         padding: 25px;
+    }
+    #col-home h3{
+        font-family: 'Courgette', cursive;
+    }
+    .col-home h3{
+        font-family: 'Courgette', cursive;
     }
 
     #col-home img {
