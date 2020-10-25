@@ -3,12 +3,15 @@ $scrumptious: #9FBEDD;
 $scrumptious-light: #e4f0fd;
 
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+/* Extra large devices (large laptops and desktops, 1920px and up) */
+@media only screen and (max-width: 1920px) {
     html {
         height: 100%;
     }
-
+    #mobile-nav{
+        
+        display: none;
+    }
     body {
         min-height: 100vh;
         padding: 0;
@@ -37,11 +40,11 @@ $scrumptious-light: #e4f0fd;
     }
 
     nav ul li {
-        display: inline-block;
         list-style-type: none;
         text-transform: uppercase;
         font-weight: 700;
         font-size: 1.15em;
+        display: inline-block;
     }
 
     nav ul li a {
@@ -52,7 +55,6 @@ $scrumptious-light: #e4f0fd;
     }
 
     nav ul li a:hover {
-        border-radius: 15px;
         background-color: $scrumptious-light;
         cursor: pointer;
         z-index: 2;
@@ -79,17 +81,17 @@ $scrumptious-light: #e4f0fd;
     #hero-image .left-text {
         position: absolute;
         bottom: 150px;
-        left: 100px;
+        left: 200px;
         font-size: 2em;
         color: white;
-        font-size: 1.75em;
-        width: 30%;
+        font-size:2em;
+        width: 25%;
     }
 
     #hero-image .left-button {
         position: absolute;
         bottom: 100px;
-        left: 100px;
+        left: 200px;
         background-color: white;
         padding: 10px 20px;
         border: 5px solid white;
@@ -122,6 +124,7 @@ $scrumptious-light: #e4f0fd;
         justify-content: space-around;
         border-top: 10px solid $scrumptious;
         padding-top: 30px;
+        font-size: 1.25em;
 
 
     }
@@ -165,10 +168,6 @@ $scrumptious-light: #e4f0fd;
         justify-content: center;
     }
 
-    #paragraph-container {
-        padding: 50px;
-    }
-
     #spacer {
         height: 2px;
         background-color: #EDEDED;
@@ -176,7 +175,7 @@ $scrumptious-light: #e4f0fd;
 
     #catering-button {
         padding: 15px;
-        background-color: $scrumptious;
+        background-color: #000;
         color: white;
         border: none;
         font-weight: bold;
@@ -203,28 +202,6 @@ $scrumptious-light: #e4f0fd;
         text-align: center;
     }
 
-    #PeoplePics img {
-        width: 100%;
-    }
-
-    .abt-1 {
-        width: 33%;
-        margin: auto;
-        text-align: center;
-    }
-
-    .abt-2 {
-        width: 33%;
-        margin: auto;
-        text-align: center;
-    }
-
-    .abt-3 {
-        width: 33%;
-        margin: auto;
-        text-align: center;
-    }
-
     .Marcie {
         width: 40%;
         margin: auto;
@@ -233,44 +210,30 @@ $scrumptious-light: #e4f0fd;
 
 
     #image-container img {
-        width: 100%;
-        border: 10px solid $scrumptious;
+        width: 500px;
+        position: relative;
+        padding: 20px;
     }
-
-    #col-1 {
+    #paragraph-container {
+        padding: 50px;
+        font-size: 1.5em;
+        background-color: #E5E5E5;
+    }
+    #col-1{
         width: 20%;
     }
-
-    #col-home {
+    #col-home{
+        background-color: #E5E5E5;
+        font-size: 1.5em;
+        margin-left: 40px;
+        height: 100%;
+        width: 33%;
         padding: 25px;
     }
-
-    #col-home-2 {
-        padding: 25px;
-    }
-
-    #col-home-3 {
-        padding: 25px;
-    }
-
     #col-home img {
-        width: 70%;
-        padding: 20px;
-        border: 10px solid $scrumptious;
+        width: 100%;
+        height: 400px;
     }
-
-    #col-home-2 img {
-        width: 60%;
-        padding: 20px;
-        border: 10px solid $scrumptious;
-    }
-
-    #col-home-3 img {
-        width: 60%;
-        padding: 20px;
-        border: 10px solid $scrumptious;
-    }
-
     /* Abby's code for 2 column layout */
     .column1 {
         float: left;
@@ -331,10 +294,6 @@ $scrumptious-light: #e4f0fd;
         display: inline-block;
     }
 
-    .column {
-        float: left;
-    }
-
     #catering-nav {
         margin: auto;
         list-style-type: none;
@@ -350,9 +309,10 @@ $scrumptious-light: #e4f0fd;
         color: black;
         text-decoration: none;
     }
-
+    .column{
+        display: flex;
+    }
     .column1 {
-        float: left;
         width: 100%;
         margin: auto;
         padding: 50px 10px 10px;
@@ -368,25 +328,48 @@ $scrumptious-light: #e4f0fd;
         clear: both;
     }
 }
+@media only screen and (max-width: 1700px) {
+    body{
+        background-color: blue;
+    }
+    nav ul li{
+        font-size: 1em;
+       
+    }
+}
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media only screen and (max-width: 1500px) {
+    body{
+        background-color: green;
+    }
+    nav ul li{
+        font-size: 1em;
+    }
+    nav ul li a{
+        padding: 10px;
+    }
     .column4 {
         width: 50%;
 
     }
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1300px) {
+    #black-bar{
+        font-weight: 100;
+    }
+    body{
+        background-color: purple;
+    }
     .logo {
-        display: none;
+        width: 10%;
     }
 
     nav ul li {
-        font-size: .75em;
-        font-weight: 300;
-        padding: 10px 2px 10px 2px;
+        font-size: 1em;
+    }
+    nav ul li a{
+        padding: 15px;
     }
 
     nav {
@@ -413,19 +396,64 @@ $scrumptious-light: #e4f0fd;
         width: 80%;
         margin: auto;
     }
-
-    #PeoplePics {
-        text-align: center;
+}
+@media only screen and (max-width: 1200px) {
+    #header{
+        display: none;
     }
-
+    mobile-nav{
+        display: block;
+    }
+    
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 600px) {
+    body{
+        background-color: yellow;
+    }
     .column4 {
         width: 100%;
     }
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {}
+@media only screen and (max-width: 600px) {
+    #mobile-nav{
+        dislay: inline;
+    }
+    .social-icons{
+        display: none;
+    }
+    body{
+        background-color: pink;
+    }
+    #image-container{
+        width: 70%;
+    }
+    #image-container img{
+        border: none;
+        padding: 0px;
+    }
+    #frame-layout{
+        flex-direction: column;
+    }
+    #small-whitespace{
+        height: 25px;
+    }
+    #whitespace{
+        height: 50px;
+    }
+    #spacer{
+        display: none;
+    }
+    #frame-layout-2{
+        flex-direction: column;
+    }
+    #col-home{
+        padding-top: 20px;
+    }
+    #footer #col-1{
+        display: none;
+    }
+}
