@@ -214,7 +214,7 @@ $grey-color: #E5E5E5;
     #image-container img {
         width: 500px;
         position: relative;
-        padding: 20px;
+        padding: 50px;
     }
     #paragraph-container {
         padding: 50px;
@@ -352,9 +352,12 @@ $grey-color: #E5E5E5;
         background-color: $grey-color;
         padding: 40px;
     }
-    #abt-card p, h2{
+    #abt-card p{
         
         padding: 0px 50px 0px 50px;
+    }
+    #lg-whitespace{
+        height: 80px;
     }
 }
 @media only screen and (max-width: 1700px) {
