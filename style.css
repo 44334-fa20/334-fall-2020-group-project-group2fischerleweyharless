@@ -80,6 +80,11 @@
     width: 25%;
     animation: fadeInAnimation ease 1.5s; }
 
+  #bold-filter {
+    font-weight: bold;
+    font-size: 1.5em;
+    font-family: 'Courgette', cursive; }
+
   #hero-image .left-button {
     position: absolute;
     bottom: 100px;

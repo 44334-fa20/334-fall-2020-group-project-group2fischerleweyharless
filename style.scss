@@ -107,6 +107,12 @@ $grey-color: #E5E5E5;
         animation: fadeInAnimation ease 1.5s;
     }
 
+    #bold-filter {
+        font-weight: bold;
+        font-size: 1.5em;
+        font-family: 'Courgette', cursive;
+    }
+
     #hero-image .left-button {
         position: absolute;
         bottom: 100px;
@@ -433,18 +439,22 @@ $grey-color: #E5E5E5;
         margin-bottom: 16px;
         resize: vertical;
     }
-    .topnav{
+
+    .topnav {
         display: none;
     }
-    #ratings-footer{
+
+    #ratings-footer {
         width: 70%;
     }
-    .catering-title{
+
+    .catering-title {
         font-size: 3em;
         text-align: center;
         font-family: 'Courgette', cursive;
     }
-    .catering-paragraph{
+
+    .catering-paragraph {
         font-size: 1.5em;
         text-align: center;
         width: 60%;
@@ -527,7 +537,7 @@ $grey-color: #E5E5E5;
         width: 50%;
         margin: 0px 10px 0px 10px;
     }
-    
+
 }
 
 @media only screen and (max-width: 1200px) {
@@ -542,9 +552,11 @@ $grey-color: #E5E5E5;
     nav {
         display: none;
     }
+
     #image-container {
         display: none;
     }
+
     .topnav {
         display: inline;
         overflow: hidden;
@@ -637,22 +649,27 @@ $grey-color: #E5E5E5;
     #footer #col-1 {
         display: none;
     }
-    .a-tag{
+
+    .a-tag {
         width: 100%;
     }
-    .topnav a{
+
+    .topnav a {
         align-items: center;
     }
-    #black-bar{
+
+    #black-bar {
         font-size: .75em;
         height: 35px;
     }
-    #col-home{
+
+    #col-home {
         width: 90%;
         margin: auto;
         margin-top: 50px;
     }
-    #map{
+
+    #map {
         width: 80%;
     }
 }
