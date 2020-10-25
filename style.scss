@@ -5,6 +5,7 @@ $grey-color: #E5E5E5;
 
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
 /* Extra large devices (large laptops and desktops, 1920px and up) */
 @media only screen and (max-width: 1920px) {
 
@@ -243,10 +244,12 @@ $grey-color: #E5E5E5;
         font-size: 1.5em;
         background-color: $grey-color;
     }
-    #paragraph-container h2{
+
+    #paragraph-container h2 {
         font-size: 2em;
         font-family: 'Courgette', cursive;
     }
+
     #col-1 {
         width: 20%;
     }
@@ -259,10 +262,12 @@ $grey-color: #E5E5E5;
         width: 33%;
         padding: 25px;
     }
-    #col-home h3{
+
+    #col-home h3 {
         font-family: 'Courgette', cursive;
     }
-    .col-home h3{
+
+    .col-home h3 {
         font-family: 'Courgette', cursive;
     }
 
@@ -409,7 +414,8 @@ $grey-color: #E5E5E5;
     #lg-whitespace {
         height: 80px;
     }
-    #form-order{
+
+    #form-order {
         background-color: $grey-color;
         padding: 50px;
     }
@@ -426,12 +432,12 @@ $grey-color: #E5E5E5;
         margin-bottom: 16px;
         resize: vertical;
     }
+    .topnav{
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 1700px) {
-    body {
-        background-color: blue;
-    }
 
     nav ul li {
         font-size: 1em;
@@ -440,9 +446,6 @@ $grey-color: #E5E5E5;
 }
 
 @media only screen and (max-width: 1500px) {
-    body {
-        background-color: green;
-    }
 
     nav ul li {
         font-size: 1em;
@@ -470,10 +473,6 @@ $grey-color: #E5E5E5;
 
     .img-3 {
         display: none;
-    }
-
-    body {
-        background-color: purple;
     }
 
     .logo {
@@ -513,24 +512,64 @@ $grey-color: #E5E5E5;
         width: 50%;
         margin: 0px 10px 0px 10px;
     }
+    
 }
 
 @media only screen and (max-width: 1200px) {
-    #header {
+    #wrapper {
+        width: 90%;
+    }
+
+    .a-tag {
         display: none;
     }
 
-    mobile-nav {
+    nav {
+        display: none;
+    }
+    #image-container {
+        display: none;
+    }
+    .topnav {
+        display: inline;
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+    }
+
+    .topnav #myLinks {
+        display: none;
+    }
+
+    .topnav a {
+        color: #000;
+        padding: 14px 16px;
+        text-decoration: none;
         display: block;
+    }
+
+    .topnav a.icon {
+        font-size: 2em;
+        background: #fff;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav a:hover {
+        color: black;
+    }
+
+    .active {
+        color: black;
     }
 
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
-    body {
-        background-color: yellow;
-    }
+
 
     .column4 {
         width: 100%;
@@ -545,10 +584,6 @@ $grey-color: #E5E5E5;
 
     .social-icons {
         display: none;
-    }
-
-    body {
-        background-color: pink;
     }
 
     #image-container {
@@ -586,5 +621,15 @@ $grey-color: #E5E5E5;
 
     #footer #col-1 {
         display: none;
+    }
+    .a-tag{
+        width: 100%;
+    }
+    .topnav a{
+        align-items: center;
+    }
+    #black-bar{
+        font-size: .75em;
+        height: 35px;
     }
 }

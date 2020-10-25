@@ -344,17 +344,14 @@
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
-    resize: vertical; } }
-@media only screen and (max-width: 1700px) {
-  body {
-    background-color: blue; }
+    resize: vertical; }
 
+  .topnav {
+    display: none; } }
+@media only screen and (max-width: 1700px) {
   nav ul li {
     font-size: 1em; } }
 @media only screen and (max-width: 1500px) {
-  body {
-    background-color: green; }
-
   nav ul li {
     font-size: 1em; }
 
@@ -372,9 +369,6 @@
 
   .img-3 {
     display: none; }
-
-  body {
-    background-color: purple; }
 
   .logo {
     width: 10%; }
@@ -405,16 +399,48 @@
     width: 50%;
     margin: 0px 10px 0px 10px; } }
 @media only screen and (max-width: 1200px) {
-  #header {
+  #wrapper {
+    width: 90%; }
+
+  .a-tag {
     display: none; }
 
-  mobile-nav {
-    display: block; } }
+  nav {
+    display: none; }
+
+  #image-container {
+    display: none; }
+
+  .topnav {
+    display: inline;
+    overflow: hidden;
+    position: relative;
+    width: 100%; }
+
+  .topnav #myLinks {
+    display: none; }
+
+  .topnav a {
+    color: #000;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: block; }
+
+  .topnav a.icon {
+    font-size: 2em;
+    background: #fff;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0; }
+
+  .topnav a:hover {
+    color: black; }
+
+  .active {
+    color: black; } }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
-  body {
-    background-color: yellow; }
-
   .column4 {
     width: 100%; } }
 /* Extra small devices (phones, 600px and down) */
@@ -424,9 +450,6 @@
 
   .social-icons {
     display: none; }
-
-  body {
-    background-color: pink; }
 
   #image-container {
     width: 70%; }
@@ -454,6 +477,16 @@
     padding-top: 20px; }
 
   #footer #col-1 {
-    display: none; } }
+    display: none; }
+
+  .a-tag {
+    width: 100%; }
+
+  .topnav a {
+    align-items: center; }
+
+  #black-bar {
+    font-size: .75em;
+    height: 35px; } }
 
 /*# sourceMappingURL=style.css.map */
