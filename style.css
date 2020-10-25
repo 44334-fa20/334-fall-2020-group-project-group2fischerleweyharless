@@ -303,7 +303,7 @@
     background-color: #E5E5E5;
     padding: 40px; }
 
-  #abt-card p {
+  #abt-card p, h2 {
     padding: 0px 50px 0px 50px; }
 
   #lg-whitespace {
