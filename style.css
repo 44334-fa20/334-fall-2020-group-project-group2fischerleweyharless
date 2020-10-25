@@ -1,6 +1,7 @@
 /* Extra large devices (large laptops and desktops, 1920px and up) */
 @media only screen and (max-width: 1920px) {
-  html {
+  html, body {
+    margin: 0;
     height: 100%; }
 
   #mobile-nav {
@@ -137,7 +138,7 @@
 
   #spacer {
     height: 2px;
-    background-color: #EDEDED; }
+    background-color: #E5E5E5; }
 
   #catering-button {
     padding: 15px;
@@ -281,7 +282,21 @@
   .row1:after {
     content: "";
     display: table;
-    clear: both; } }
+    clear: both; }
+
+  #PeoplePics img {
+    width: 100%; }
+
+  #abt-card {
+    display: flex;
+    width: 75%;
+    margin: auto;
+    font-size: 1.75em;
+    background-color: #E5E5E5;
+    padding: 40px; }
+
+  #abt-card p, h2 {
+    padding: 0px 50px 0px 50px; } }
 @media only screen and (max-width: 1700px) {
   body {
     background-color: blue; }
