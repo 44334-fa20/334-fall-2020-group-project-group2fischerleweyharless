@@ -1,6 +1,7 @@
 /* Extra large devices (large laptops and desktops, 1920px and up) */
 @media only screen and (max-width: 1920px) {
-  html, body {
+  html,
+  body {
     margin: 0;
     height: 100%; }
 
@@ -126,7 +127,8 @@
     background-color: black;
     color: white;
     text-align: center;
-    padding: 25px; }
+    padding: 25px;
+    margin-bottom: 0; }
 
   #whitespace {
     height: 50px; }
@@ -295,7 +297,7 @@
   #PeoplePics img {
     width: 100%; }
 
-  #abt-card {
+  #abt-pg-card {
     display: flex;
     width: 75%;
     margin: auto;
@@ -303,11 +305,34 @@
     background-color: #E5E5E5;
     padding: 40px; }
 
-  #abt-card p, h2 {
-    padding: 0px 50px 0px 50px; }
+  #abt-pg-card h2 {
+    margin: 0px 50px 0px 50px; }
+
+  #abt-pg-card p {
+    margin: 0px 50px 0px 50px; }
+
+  #abt-pg-card #catering-button {
+    margin: 0px 50px 0px 50px;
+    margin-top: 25px; }
 
   #lg-whitespace {
-    height: 80px; } }
+    height: 80px; }
+
+  #form-order {
+    background-color: #E5E5E5;
+    padding: 50px; }
+
+  #form-order input[type=text],
+  select,
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical; } }
 @media only screen and (max-width: 1700px) {
   body {
     background-color: blue; }

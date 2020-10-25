@@ -6,23 +6,28 @@ $grey-color: #E5E5E5;
 
 /* Extra large devices (large laptops and desktops, 1920px and up) */
 @media only screen and (max-width: 1920px) {
-    html, body {
-    margin: 0;
-    height: 100%;
-}
-    #mobile-nav{
-        
+
+    html,
+    body {
+        margin: 0;
+        height: 100%;
+    }
+
+    #mobile-nav {
+
         display: none;
     }
-  
-@keyframes fadeInAnimation { 
-    0% { 
-        opacity: 0; 
-    } 
-    100% { 
-        opacity: 1; 
-     } 
-} 
+
+    @keyframes fadeInAnimation {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+    }
+
     body {
         min-height: 100vh;
         padding: 0;
@@ -95,9 +100,9 @@ $grey-color: #E5E5E5;
         left: 200px;
         font-size: 2em;
         color: white;
-        font-size:2em;
+        font-size: 2em;
         width: 25%;
-        animation: fadeInAnimation ease 1.5s ;
+        animation: fadeInAnimation ease 1.5s;
     }
 
     #hero-image .left-button {
@@ -108,7 +113,7 @@ $grey-color: #E5E5E5;
         padding: 10px 20px;
         border: 5px solid white;
         font-size: 1.25em;
-        animation: fadeInAnimation ease 1.5s ;
+        animation: fadeInAnimation ease 1.5s;
     }
 
     #hero-image .left-button:hover {
@@ -160,6 +165,7 @@ $grey-color: #E5E5E5;
         color: white;
         text-align: center;
         padding: 25px;
+        margin-bottom: 0;
     }
 
     #whitespace {
@@ -173,7 +179,7 @@ $grey-color: #E5E5E5;
     #frame-layout {
         display: flex;
         align-items: center;
-        animation: fadeInAnimation ease 1.5s ;
+        animation: fadeInAnimation ease 1.5s;
 
     }
 
@@ -207,7 +213,7 @@ $grey-color: #E5E5E5;
     }
 
     #gallery-flex img {
-        animation: fadeInAnimation ease 2s ;
+        animation: fadeInAnimation ease 2s;
         width: 300px;
         height: 300px;
         padding: 25px;
@@ -229,15 +235,18 @@ $grey-color: #E5E5E5;
         position: relative;
         padding: 50px;
     }
+
     #paragraph-container {
         padding: 50px;
         font-size: 1.5em;
         background-color: $grey-color;
     }
-    #col-1{
+
+    #col-1 {
         width: 20%;
     }
-    #col-home{
+
+    #col-home {
         background-color: $grey-color;
         font-size: 1.5em;
         margin-left: 40px;
@@ -245,11 +254,13 @@ $grey-color: #E5E5E5;
         width: 33%;
         padding: 25px;
     }
+
     #col-home img {
         width: 100%;
         height: 400px;
     }
-    .col-home{
+
+    .col-home {
         background-color: $grey-color;
         font-size: 1.5em;
         margin-left: 40px;
@@ -257,10 +268,12 @@ $grey-color: #E5E5E5;
         width: 33%;
         padding: 25px;
     }
+
     .col-home img {
         width: 100%;
         height: 400px;
     }
+
     /* Abby's code for 2 column layout */
     .column1 {
         float: left;
@@ -336,9 +349,11 @@ $grey-color: #E5E5E5;
         color: black;
         text-decoration: none;
     }
-    .column{
+
+    .column {
         display: flex;
     }
+
     .column1 {
         width: 100%;
         margin: auto;
@@ -354,10 +369,12 @@ $grey-color: #E5E5E5;
         display: table;
         clear: both;
     }
-    #PeoplePics img{
+
+    #PeoplePics img {
         width: 100%;
     }
-    #abt-card{
+
+    #abt-pg-card {
         display: flex;
         width: 75%;
         margin: auto;
@@ -365,54 +382,90 @@ $grey-color: #E5E5E5;
         background-color: $grey-color;
         padding: 40px;
     }
-    #abt-card p, h2{
-        
-        padding: 0px 50px 0px 50px;
+
+    #abt-pg-card h2 {
+        margin: 0px 50px 0px 50px;
     }
-    #lg-whitespace{
+
+    #abt-pg-card p {
+        margin: 0px 50px 0px 50px;
+    }
+
+    #abt-pg-card #catering-button {
+        margin: 0px 50px 0px 50px;
+        margin-top: 25px;
+    }
+
+    #lg-whitespace {
         height: 80px;
     }
+    #form-order{
+        background-color: $grey-color;
+        padding: 50px;
+    }
+
+    #form-order input[type=text],
+    select,
+    textarea {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+    }
 }
+
 @media only screen and (max-width: 1700px) {
-    body{
+    body {
         background-color: blue;
     }
-    nav ul li{
+
+    nav ul li {
         font-size: 1em;
-       
+
     }
 }
 
 @media only screen and (max-width: 1500px) {
-    body{
+    body {
         background-color: green;
     }
-    nav ul li{
+
+    nav ul li {
         font-size: 1em;
     }
-    nav ul li a{
+
+    nav ul li a {
         padding: 10px;
     }
+
     .column4 {
         width: 50%;
 
     }
-    
+
 }
 
 @media only screen and (max-width: 1300px) {
-    #black-bar{
+    #black-bar {
         font-weight: 100;
     }
-    #frame-layout{
+
+    #frame-layout {
         flex-wrap: nowrap;
     }
-    .img-3{
+
+    .img-3 {
         display: none;
     }
-    body{
+
+    body {
         background-color: purple;
     }
+
     .logo {
         width: 10%;
     }
@@ -420,7 +473,8 @@ $grey-color: #E5E5E5;
     nav ul li {
         font-size: 1em;
     }
-    nav ul li a{
+
+    nav ul li a {
         padding: 15px;
     }
 
@@ -437,33 +491,37 @@ $grey-color: #E5E5E5;
     }
 
     #hero-iamge .left-button {
-       display: none;
+        display: none;
     }
 
     #wrapper {
         width: 80%;
         margin: auto;
     }
-    #col-home{
+
+    #col-home {
         width: 50%;
         margin: 0px 10px 0px 10px;
     }
 }
+
 @media only screen and (max-width: 1200px) {
-    #header{
+    #header {
         display: none;
     }
-    mobile-nav{
+
+    mobile-nav {
         display: block;
     }
-    
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
-    body{
+    body {
         background-color: yellow;
     }
+
     .column4 {
         width: 100%;
     }
@@ -471,41 +529,52 @@ $grey-color: #E5E5E5;
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-    #mobile-nav{
+    #mobile-nav {
         dislay: inline;
     }
-    .social-icons{
+
+    .social-icons {
         display: none;
     }
-    body{
+
+    body {
         background-color: pink;
     }
-    #image-container{
+
+    #image-container {
         width: 70%;
     }
-    #image-container img{
+
+    #image-container img {
         border: none;
         padding: 0px;
     }
-    #frame-layout{
+
+    #frame-layout {
         flex-direction: column;
     }
-    #small-whitespace{
+
+    #small-whitespace {
         height: 25px;
     }
-    #whitespace{
+
+    #whitespace {
         height: 50px;
     }
-    #spacer{
+
+    #spacer {
         display: none;
     }
-    #frame-layout-2{
+
+    #frame-layout-2 {
         flex-direction: column;
     }
-    #col-home{
+
+    #col-home {
         padding-top: 20px;
     }
-    #footer #col-1{
+
+    #footer #col-1 {
         display: none;
     }
 }

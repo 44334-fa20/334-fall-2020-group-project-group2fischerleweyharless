@@ -1,15 +1,16 @@
 <!doctype html>
 
 <html lang="en">
-<head>
-  <meta charset="utf-8">
 
-  <title>Scrumptious Catering KC</title>
-  <meta name="description" content="Scrumptious Catering Website">
-  <meta name="author" content="SitePoint">
-  <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+<head>
+    <meta charset="utf-8">
+
+    <title>Scrumptious Catering KC</title>
+    <meta name="description" content="Scrumptious Catering Website">
+    <meta name="author" content="SitePoint">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 
 
 </head>
@@ -20,7 +21,7 @@
         <p>|</p>
         <p><i class="fas fa-map-marker-alt"></i> 200 E Shrader, Building A, Liberty MO 64068 </p>
     </div>
-    
+
     <div id="wrapper">
         <div id="header">
             <a class="a-tag" href="index.html"><img src="ScrumptiousCateringLogo.jpg" class="logo"></a>
@@ -52,47 +53,63 @@
         <div id="whitespace"></div>
         <h2 id="text-align">Welcome to the Order Page!</h2>
         <p>Here you can fill out a form and place an order with us for your all important meal. If you have any questions about our catering, feel free to give a call or send us an email. Both phone number and email can be found at the very top of every page!</p>
-    <div id="small-whitespace"></div>
-</div>
-    <div id="whitespace"></div>
-        <div id="footer">
-            <div id="col-1">
-                <ul>
-                    <li>
-                        <div id='bold-filter'>About Us</div>
-                    </li>
-                    <li>
-                        Scrumptious Catering is your place to find delicious, professionally delivered catering without having to break the bank. Give a call today or contact us to find out more about how we can make your event truly special.
-                    </li>
-                </ul>
-            </div>
-            <div id="col-2">
-                <ul>
-                    <li>
-                        <a href="about.html">About</a>
-                    </li>
-                    <li>
-                        Contact Us
-                    </li>
-                    <li>
-                        <a href="order.html">Place an Order</a>
-                    </li>
-                    <li>
-                        <a href="https://www.ezcater.com/catering/pvt/scrumptious-catering-1">EZCater</a>
-                    </li>
-                </ul>
-            
-            </div>
-            <div id="col-3">
-                <ul>
-                    <li>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3089.9751362260604!2d-94.42049808537514!3d39.243436079518716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c05567600856cb%3A0xdfd746615fd24f41!2s200%20E%20Shrader%20St%20Building%20A%2C%20Liberty%2C%20MO%2064068!5e0!3m2!1sen!2sus!4v1602785207613!5m2!1sen!2sus" width="200" height="150" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                    </li>
-                </ul>
-            
-            </div>
+        <div id="whitespace"></div>
+        <form id="form-order" action="/action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <label for="lname">Email Address</label>
+            <input type="text" id="email" name="emailAddress" placeholder="Your Email Address">
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+            <button id="catering-button">Submit</button>
+        </form>
+    </div>
+    <div id="lg-whitespace"></div>
+    <div id="footer">
+        <div id="col-1">
+            <ul>
+                <li>
+                    <div id='bold-filter'>About Us</div>
+                </li>
+                <li>
+                    Scrumptious Catering is your place to find delicious, professionally delivered catering without having to break the bank. Give a call today or contact us to find out more about how we can make your event truly special.
+                </li>
+            </ul>
+        </div>
+        <div id="col-2">
+            <ul>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li>
+                    Contact Us
+                </li>
+                <li>
+                    <a href="order.html">Place an Order</a>
+                </li>
+                <li>
+                    <a href="https://www.ezcater.com/catering/pvt/scrumptious-catering-1">EZCater</a>
+                </li>
+            </ul>
+
+        </div>
+        <div id="col-3">
+            <ul>
+                <li>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3089.9751362260604!2d-94.42049808537514!3d39.243436079518716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c05567600856cb%3A0xdfd746615fd24f41!2s200%20E%20Shrader%20St%20Building%20A%2C%20Liberty%2C%20MO%2064068!5e0!3m2!1sen!2sus!4v1602785207613!5m2!1sen!2sus" width="200" height="150" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </li>
+            </ul>
+
+        </div>
     </div>
     <p id="footer-caption">Nolan Harless. Cynthia Fischer. Abby Lewey</p>
-  <script src="js/scripts.js"></script>
+    <script src="js/scripts.js"></script>
 </body>
+
 </html>
