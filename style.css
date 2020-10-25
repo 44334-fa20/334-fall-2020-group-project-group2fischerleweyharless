@@ -1,405 +1,305 @@
-html, body {
-  margin: 0;
-  min-height: 100%;
-  height: 100%; }
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  html {
+    height: 100%; }
 
-body {
-  font-family: sans-serif; }
+  body {
+    min-height: 100vh;
+    padding: 0;
+    margin-top: 0;
+    margin-left: 0;
+    font-family: sans-serif; }
 
-#wrapper {
-  margin: 0 auto;
-  width: 85%; }
+  #wrapper {
+    margin: 0 auto;
+    width: 85%; }
 
-#header {
-  padding: 10px 0px 10px 0px;
-  display: flex;
-  align-items: center;
-  justify-content: space-around; }
+  #header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; }
 
-.logo {
-  width: 100%; }
+  .a-tag {
+    width: 40%; }
 
-.a-tag {
-  width: 15%; }
+  .a-tag img {
+    width: 50%; }
 
-nav ul li {
-  display: inline-block;
-  list-style-type: none;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 1.15em; }
+  nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.15em; }
 
-nav ul li a {
-  height: 100%;
-  text-decoration: none;
-  color: black;
-  padding: 20px 25px; }
+  nav ul li a {
+    height: 100%;
+    text-decoration: none;
+    color: black;
+    padding: 20px 25px; }
 
-nav ul li a:hover {
-  border-radius: 15px;
-  background-color: #e4f0fd;
-  cursor: pointer;
-  z-index: 2;
-  transition: color .25s ease-in-out; }
-
-#hero-image {
-  position: relative; }
-
-#hero-image img {
-  width: 100%;
-  height: 100%;
-  position: relative; }
-
-#hero-image .bottom-left {
-  position: absolute;
-  bottom: 125px;
-  left: 100px; }
-
-#hero-image .bottom-left-button {
-  position: absolute;
-  bottom: 80px;
-  left: 100px;
-  background-color: white;
-  padding: 10px 20px;
-  border: 5px solid white;
-  font-weight: 700;
-  font-size: 1.0em; }
-
-#hero-image .bottom-left-button:hover {
-  cursor: pointer;
-  background-color: transparent;
-  transition: background-color .15s ease-in-out;
-  color: white; }
-
-.hero-text {
-  color: white;
-  font-size: 1.75em;
-  width: 30%; }
-
-#black-bar {
-  background-color: black;
-  color: white;
-  display: flex;
-  font-weight: bold;
-  height: 50px; }
-
-#black-bar p {
-  margin-left: 20px; }
-
-#footer {
-  display: flex;
-  background-color: black;
-  color: white;
-  justify-content: space-around;
-  border-top: 10px solid #9FBEDD;
-  padding-top: 30px; }
-
-#footer ul li {
-  list-style-type: none;
-  padding-top: 15px; }
-
-#footer ul li a {
-  color: white;
-  text-decoration: underline; }
-
-#footer-caption {
-  margin-top: 0;
-  background-color: black;
-  color: white;
-  text-align: center;
-  padding: 25px; }
-
-#whitespace {
-  height: 50px; }
-
-#small-whitespace {
-  height: 25px; }
-
-#frame-layout {
-  display: flex;
-  align-items: center; }
-
-#frame-layout-2 {
-  display: flex;
-  align-items: top;
-  justify-content: center; }
-
-#paragraph-container {
-  padding: 50px; }
-
-#spacer {
-  height: 2px;
-  background-color: #EDEDED; }
-
-#catering-button {
-  padding: 15px;
-  background-color: #9FBEDD;
-  color: white;
-  border: none;
-  font-weight: bold;
-  font-size: 1.1em; }
-
-#catering-button:hover {
-  cursor: pointer;
-  background-color: antiquewhite; }
-
-#gallery-flex {
-  display: flex;
-  flex-flow: row wrap; }
-
-#gallery-flex img {
-  width: 300px;
-  height: 300px;
-  padding: 25px; }
-
-#text-align {
-  text-align: center; }
-
-#PeoplePics img {
-  width: 100%; }
-
-.abt-1 {
-  width: 33%;
-  margin: auto;
-  text-align: center; }
-
-.abt-2 {
-  width: 33%;
-  margin: auto;
-  text-align: center; }
-
-.abt-3 {
-  width: 33%;
-  margin: auto;
-  text-align: center; }
-
-.Marcie {
-  width: 40%;
-  margin: auto;
-  text-align: center;}
-
-.column {
-  display: flex;
-  align-items: center;
-    width:100%;
-      
-  }
-
-.column img{
-    width: 100%;
-    height: 100px;
-    display: block;
-    margin: auto;}
-
-#image-container img {
-  width: 100%;
-  border: 10px solid #9FBEDD; }
-#col-1 {
-  width: 20%; }
-
-#col-home {
-  padding: 25px; }
-
-#col-home-2 {
-  padding: 25px; }
-
-#col-home-3 {
-  padding: 25px; }
-
-#col-home img {
-  width: 70%;
-  padding: 20px;
-  border: 10px solid #9FBEDD; }
-
-#col-home-2 img {
-  width: 60%;
-  padding: 20px;
-  border: 10px solid #9FBEDD; }
-
-#col-home-3 img {
-  width: 60%;
-  padding: 20px;
-
-  border: 10px solid #9FBEDD; }
-
-/* Abby's code for 2 column layout */
-.column4 {
-  float: left;
-  width: 100%;
-  margin:auto;
-  padding: 0px 10px 50px;
-  display: table;
- 
-}
-    
-
-/* Clear floats after the columns */
-.row1:after {
-  content: "";
-  display: table;
-    clear: both;}
-/* Abby's staff page */
-* {
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #f1f1f1;
-  padding: 20px;
-  font-family: Arial;
-}
-
-/* Center website */
-.main {
-  max-width: 1000px;
-  margin: auto;
-}
-
-h1 {
-  font-size: 50px;
-  word-break: break-all;
-}
-
-.row {
-  margin: 8px -16px;
-}
-
-/* Add padding BETWEEN each column (if you want) */
-.row,
-.row > .column4 {
-  padding: 8px;
-}
-
-/* Create four equal columns that floats next to each other */
-.column4 {
-  float: left;
-    width: 25%
-}
-
-/* Clear floats after rows */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Content */
-.content {
-  background-color: white;
-  padding: 10px;
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 900px) {
-  .column4 {
-    width: 50%;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column4 {
-    width: 100%;
-  }
-}
-/* End of Abby's Staff Page */
-
-/* Abby's About page photo aligns */
-.column {
-    float: left;}
-#catering-nav {
-  margin: auto;
-  list-style-type: none;
-  text-align: center; }
-
-#catering-nav ul li {
-  display: inline-block;
-  padding: 25px; 
-  list-style-type: none;
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 1.15em; }
-
-#catering-nav ul li a {
-  color: black;
-  text-decoration: none; 
-  height: 100%;
-  padding: 20px 25px; }
-
-#catering-nav ul li a:hover {
-  border-radius: 15px;
-  background-color: #e4f0fd;
-  cursor: pointer;
-  z-index: 2;
+  nav ul li a:hover {
+    border-radius: 15px;
+    background-color: #e4f0fd;
+    cursor: pointer;
+    z-index: 2;
     transition: color .25s ease-in-out; }
 
-.column1 {
-  float: left;
-  width: 100%;
-  margin:auto;
-  padding: 10px 10px 10px;
-  display: table-cell;
-border: 1px solid #000;}
+  .navbar-fixed-top {
+    top: 0;
+    z-index: 100;
+    position: fixed;
+    width: 100%; }
 
-@media screen and (min-width: 1440px) {
-  body {
-    background-color: blue; } 
+  #hero-image {
+    position: relative; }
 
-  border: 10px solid #9FBEDD;}
-=======
-  border: 10px solid #9FBEDD; }
->>>>>>> 3330641e30b97f48d3583d9d67bf34529721ea47
+  #hero-image img {
+    width: 100%;
+    height: 350px;
+    position: relative; }
 
-#catering-nav {
-  margin: auto;
-  list-style-type: none;
-  text-align: center; }
+  #hero-image .left-text {
+    position: absolute;
+    bottom: 150px;
+    left: 100px;
+    font-size: 2em;
+    color: white;
+    font-size: 1.75em;
+    width: 30%; }
 
-#catering-nav ul li {
-  display: inline-block;
-  padding: 25px; }
+  #hero-image .left-button {
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+    background-color: white;
+    padding: 10px 20px;
+    border: 5px solid white;
+    font-size: 1.25em; }
 
-#catering-nav ul li a {
-  color: black;
-  text-decoration: none;
-  /* For owner page row */ }
-  #catering-nav ul li a .column1 {
+  #hero-image .left-button:hover {
+    cursor: pointer;
+    background-color: transparent;
+    transition: background-color .15s ease-in-out;
+    color: white; }
+
+  #black-bar {
+    background-color: black;
+    color: white;
+    display: flex;
+    font-weight: bold;
+    height: 50px; }
+
+  #black-bar p {
+    margin-left: 20px; }
+
+  #footer {
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-around;
+    border-top: 10px solid #9FBEDD;
+    padding-top: 30px; }
+
+  #footer ul li {
+    list-style-type: none;
+    padding-top: 15px; }
+
+  #footer ul li a {
+    color: white;
+    text-decoration: underline; }
+
+  #footer-caption {
+    margin-top: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 25px; }
+
+  #whitespace {
+    height: 50px; }
+
+  #small-whitespace {
+    height: 25px; }
+
+  #frame-layout {
+    display: flex;
+    align-items: center; }
+
+  #frame-layout-2 {
+    display: flex;
+    align-items: top;
+    justify-content: center; }
+
+  #paragraph-container {
+    padding: 50px; }
+
+  #spacer {
+    height: 2px;
+    background-color: #EDEDED; }
+
+  #catering-button {
+    padding: 15px;
+    background-color: #9FBEDD;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 1.1em; }
+
+  #catering-button:hover {
+    cursor: pointer;
+    background-color: antiquewhite; }
+
+  #gallery-flex {
+    display: flex;
+    flex-flow: row wrap; }
+
+  #gallery-flex img {
+    width: 300px;
+    height: 300px;
+    padding: 25px; }
+
+  #text-align {
+    text-align: center; }
+
+  #PeoplePics img {
+    width: 100%; }
+
+  .abt-1 {
+    width: 33%;
+    margin: auto;
+    text-align: center; }
+
+  .abt-2 {
+    width: 33%;
+    margin: auto;
+    text-align: center; }
+
+  .abt-3 {
+    width: 33%;
+    margin: auto;
+    text-align: center; }
+
+  .Marcie {
+    width: 40%;
+    margin: auto;
+    text-align: center; }
+
+  #image-container img {
+    width: 100%;
+    border: 10px solid #9FBEDD; }
+
+  #col-1 {
+    width: 20%; }
+
+  #col-home {
+    padding: 25px; }
+
+  #col-home-2 {
+    padding: 25px; }
+
+  #col-home-3 {
+    padding: 25px; }
+
+  #col-home img {
+    width: 70%;
+    padding: 20px;
+    border: 10px solid #9FBEDD; }
+
+  #col-home-2 img {
+    width: 60%;
+    padding: 20px;
+    border: 10px solid #9FBEDD; }
+
+  #col-home-3 img {
+    width: 60%;
+    padding: 20px;
+    border: 10px solid #9FBEDD; }
+
+  /* Abby's code for 2 column layout */
+  .column1 {
     float: left;
-    width: 50%;
-    height: 70%;
-    padding: 30px 14px 0px;
-    /* for owner page columns */ }
-  #catering-nav ul li a * {
-    box-sizing: border-box; }
-  #catering-nav ul li a .row1:after {
+    width: 100%;
+    margin: auto;
+    padding: 15px 10px 50px;
+    display: table-cell; }
+
+  /* Clear floats after the columns */
+  .row1:after {
     content: "";
     display: table;
     clear: both; }
 
-@media screen and (max-width: 1440px) {
-  body {
-    background-color: white; } }
-@media screen and (min-width: 1920px) {
-  body {
-    background-color: red; } }
-@media screen and (max-width: 1030px) {
-  /* Styles go here */
-  nav ul li {
-    font-size: 1em;
-    padding: 10px 15px; }
+  /* Abby's staff page */
+  * {
+    box-sizing: border-box; }
 
-  .bottom-left {
-    bottom: 90px; }
+  h1 {
+    font-size: 50px;
+    word-break: break-all; }
 
-  .bottom-left-button {
-    bottom: 40px; }
+  .row {
+    margin: 8px -16px; }
 
-  .hero-text {
-    font-size: 1.5em; } }
+  /* Add padding BETWEEN each column (if you want) */
+  .row,
+  .row > .column4 {
+    padding: 8px; }
 
-h2{text-align: center;}
+  /* Create four equal columns that floats next to each other */
+  .column4 {
+    float: left;
+    width: 25%; }
 
-@media screen and (max-width: 770px) {
+  /* Clear floats after rows */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+  /* Content */
+  .content {
+    background-color: white;
+    padding: 10px; }
+
+  .social-icons li {
+    display: inline-block; }
+
+  .column {
+    float: left; }
+
+  #catering-nav {
+    margin: auto;
+    list-style-type: none;
+    text-align: center; }
+
+  #catering-nav ul li {
+    display: inline-block;
+    padding: 25px; }
+
+  #catering-nav ul li a {
+    color: black;
+    text-decoration: none; }
+
+  .column1 {
+    float: left;
+    width: 100%;
+    margin: auto;
+    padding: 50px 10px 10px;
+    display: table-cell;
+    border: 1px solid #000; }
+
+  /* Clear floats after the columns */
+  .row1:after {
+    content: "";
+    display: table;
+    clear: both; } }
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .column4 {
+    width: 50%; } }
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
   .logo {
     display: none; }
 
@@ -429,5 +329,10 @@ h2{text-align: center;}
 
   #PeoplePics {
     text-align: center; } }
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .column4 {
+    width: 100%; } }
+/* Extra small devices (phones, 600px and down) */
 
 /*# sourceMappingURL=style.css.map */
