@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="icon" type="image/png" href="ico.png" />
 </head>
 
 <body>
@@ -58,12 +59,12 @@
             <div class="topnav">
                 <a class="a-tag" href="index.html"><img src="ScrumptiousCateringLogo.jpg" class="logo"></a>
                 <div id="myLinks">
-                    <a href="#news">Home</a>
-                    <a href="#contact">About</a>
-                    <a href="#about">Catering</a>
-                    <a href="#news">Order</a>
-                    <a href="#contact">Gallery</a>
-                    <a href="#about">EZCatering</a>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="catering.html">Catering</a>
+                    <a href="order.html">Order</a>
+                    <a href="gallery.html">Gallery</a>
+                    <a href="https://www.ezcater.com/catering/pvt/scrumptious-catering-1">EZCatering</a>
                 </div>
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()">
                     <i class="fa fa-bars"></i>
@@ -85,8 +86,10 @@
             </div>
             <div id="paragraph-container">
                 <h2>Catering. It's What We Do.</h2>
-                <p>At Scrumptious Catering we believe in offering high quality menu items that are freshly prepared with only the finest ingredients at an affordable price. We also recognize the importance of offering individual attention to every customer and event from the casual get-together to more formal or corporate gatherings. Our experienced and professional staff is ready to assist you to make your event a successful one whether you prefer to custom-plan the menu yourself or let us handle the details from start to finish. <br><br>Our goal at Scrumptious Catering is to cater to your individual needs as well as your menu needs. We can help you create your event in the way you decide it should be created. Contact us and find out how simple it is to begin planning your important event today.</p>
-                <button id="catering-button">See Our Menu</button>
+                <p>At Scrumptious Catering we believe in offering high quality menu items that are freshly prepared with only the finest ingredients at an affordable price. <br><br>We also recognize the importance of offering individual attention to every customer and event from the casual get-together to more formal or corporate gatherings. Our experienced and professional staff is ready to assist you to make your event a successful one whether you prefer to custom-plan the menu yourself or let us handle the details from start to finish. <br><br>Our goal at Scrumptious Catering is to cater to your individual needs as well as your menu needs. We can help you create your event in the way you decide it should be created. Contact us and find out how simple it is to begin planning your important event today.</p>
+                <button id="catering-button">See Our Menu <i class="fas fa-utensils"></i>
+
+                </button>
             </div>
 
         </div>
@@ -115,8 +118,26 @@
                 <button id="catering-button">Catering Options</button>
             </div>
         </div>
+        <div id="lg-whitespace"></div>
+        <div id="spacer"></div>
+        <div id="lg-whitespace"></div>
+        <div id="frame-layout">
+            <div id="paragraph-container">
+                <h2>Testimonials</h2>
+                <p>Would you like to see a detailed list of customer testimonials and reviews? Click button below.</p>
+                <button id="catering-button">See Testimonials <i class="fas fa-star"></i>
+                </button>
+            </div>
+            <div id="image-container">
+                <img src="images/8.jpg">
+            </div>
+
+        </div>
     </div>
+
     <div id="lg-whitespace"></div>
+
+
     <div id="footer">
         <div id="col-1">
             <ul>
@@ -125,6 +146,9 @@
                 </li>
                 <li>
                     Scrumptious Catering is your place to find delicious, professionally delivered catering without having to break the bank. Give a call today or contact us to find out more about how we can make your event truly special.
+                </li>
+                <li>
+                    <img id="ratings-footer" src="ratings.png">
                 </li>
             </ul>
         </div>
@@ -151,7 +175,7 @@
         <div id="col-3">
             <ul>
                 <li>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3089.9751362260604!2d-94.42049808537514!3d39.243436079518716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c05567600856cb%3A0xdfd746615fd24f41!2s200%20E%20Shrader%20St%20Building%20A%2C%20Liberty%2C%20MO%2064068!5e0!3m2!1sen!2sus!4v1602785207613!5m2!1sen!2sus" width="400" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3089.9751362260604!2d-94.42049808537514!3d39.243436079518716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c05567600856cb%3A0xdfd746615fd24f41!2s200%20E%20Shrader%20St%20Building%20A%2C%20Liberty%2C%20MO%2064068!5e0!3m2!1sen!2sus!4v1602785207613!5m2!1sen!2sus" width="400" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                 </li>
             </ul>
 
@@ -160,15 +184,16 @@
     </div>
     <p id="footer-caption">Nolan Harless. Cynthia Fischer. Abby Lewey</p>
     <script>
-function myFunction() {
-  var x = document.getElementById("myLinks");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
-</script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+
+    </script>
 </body>
 
 </html>

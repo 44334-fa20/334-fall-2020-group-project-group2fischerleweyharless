@@ -101,7 +101,6 @@ $grey-color: #E5E5E5;
         position: absolute;
         bottom: 150px;
         left: 200px;
-        font-size: 2em;
         color: white;
         font-size: 2em;
         width: 25%;
@@ -199,7 +198,7 @@ $grey-color: #E5E5E5;
 
     #catering-button {
         padding: 15px;
-        background-color: #000;
+        background-color: #788475;
         color: white;
         border: none;
         font-size: .8em;
@@ -207,7 +206,7 @@ $grey-color: #E5E5E5;
 
     #catering-button:hover {
         cursor: pointer;
-        background-color: antiquewhite;
+        background-color: #5E5D5C;
     }
 
     #gallery-flex {
@@ -352,12 +351,14 @@ $grey-color: #E5E5E5;
 
     #catering-nav {
         margin: auto;
+        font-size: 1.5em;
         list-style-type: none;
         text-align: center;
     }
 
     #catering-nav ul li {
         display: inline-block;
+        font-family: 'Courgette', cursive;
         padding: 25px;
     }
 
@@ -434,6 +435,20 @@ $grey-color: #E5E5E5;
     }
     .topnav{
         display: none;
+    }
+    #ratings-footer{
+        width: 70%;
+    }
+    .catering-title{
+        font-size: 3em;
+        text-align: center;
+        font-family: 'Courgette', cursive;
+    }
+    .catering-paragraph{
+        font-size: 1.5em;
+        text-align: center;
+        width: 60%;
+        margin: auto
     }
 }
 
@@ -631,5 +646,13 @@ $grey-color: #E5E5E5;
     #black-bar{
         font-size: .75em;
         height: 35px;
+    }
+    #col-home{
+        width: 90%;
+        margin: auto;
+        margin-top: 50px;
+    }
+    #map{
+        width: 80%;
     }
 }

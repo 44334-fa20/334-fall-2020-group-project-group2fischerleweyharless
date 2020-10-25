@@ -11,7 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-
+    <link rel="icon" type="image/png" href="ico.png" />
 
 </head>
 
@@ -47,6 +47,20 @@
                     </li>
                 </ul>
             </nav>
+            <div class="topnav">
+                <a class="a-tag" href="index.html"><img src="ScrumptiousCateringLogo.jpg" class="logo"></a>
+                <div id="myLinks">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="catering.html">Catering</a>
+                    <a href="order.html">Order</a>
+                    <a href="gallery.html">Gallery</a>
+                    <a href="https://www.ezcater.com/catering/pvt/scrumptious-catering-1">EZCatering</a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
         </div>
     </div>
     <div id="wrapper">
@@ -80,10 +94,16 @@
                 <li>
                     Scrumptious Catering is your place to find delicious, professionally delivered catering without having to break the bank. Give a call today or contact us to find out more about how we can make your event truly special.
                 </li>
+                <li>
+                    <img id="ratings-footer" src="ratings.png">
+                </li>
             </ul>
         </div>
         <div id="col-2">
             <ul>
+                <li>
+                    <a href="sitemap.html">SiteMap</a>
+                </li>
                 <li>
                     <a href="about.html">About</a>
                 </li>
@@ -102,14 +122,26 @@
         <div id="col-3">
             <ul>
                 <li>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3089.9751362260604!2d-94.42049808537514!3d39.243436079518716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c05567600856cb%3A0xdfd746615fd24f41!2s200%20E%20Shrader%20St%20Building%20A%2C%20Liberty%2C%20MO%2064068!5e0!3m2!1sen!2sus!4v1602785207613!5m2!1sen!2sus" width="200" height="150" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3089.9751362260604!2d-94.42049808537514!3d39.243436079518716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c05567600856cb%3A0xdfd746615fd24f41!2s200%20E%20Shrader%20St%20Building%20A%2C%20Liberty%2C%20MO%2064068!5e0!3m2!1sen!2sus!4v1602785207613!5m2!1sen!2sus" width="400" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                 </li>
             </ul>
 
         </div>
+
     </div>
     <p id="footer-caption">Nolan Harless. Cynthia Fischer. Abby Lewey</p>
     <script src="js/scripts.js"></script>
 </body>
+<script>
+    function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+        }
+    }
+
+</script>
 
 </html>
