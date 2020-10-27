@@ -245,6 +245,11 @@
   .row1 {
     flex: 5; }
 
+    /*Abby's About page */
+    a {
+        text-decoration: none;}
+    
+    }
   /* Abby's staff page */
   * {
     box-sizing: border-box; }
