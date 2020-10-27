@@ -235,10 +235,9 @@
 
   /* Abby's code for 2 column layout */
   .column1 {
-    float: left;
+    float: center;
     width: 100%;
     margin: auto;
-    padding: 50px 0px 0px;
     display: table-cell; }
 
   /* Clear floats after the columns */
@@ -246,7 +245,7 @@
     content: "";
     display: table;
     clear: both; }
-    h2{ text-align: center;}
+
   /* Abby's staff page */
   * {
     box-sizing: border-box; }
@@ -303,7 +302,6 @@
   .column1 {
     width: 100%;
     margin: auto;
-    padding: 50px 10px 10px;
     display: table-cell;
     border: 1px solid #000; }
 
