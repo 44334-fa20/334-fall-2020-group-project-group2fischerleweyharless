@@ -296,19 +296,18 @@ $grey-color: #E5E5E5;
     }
 
     /* Abby's code for 2 column layout */
+    #row1 {
+        display:flex;
+        flex-direction: row;
+    }
     .column1 {
-        float: center;
-        width: 100%;
-        margin: auto;
-        display: table-cell;
+        flex: 5;
     }
 
 
     /* Clear floats after the columns */
-    .row1:after {
-        content: "";
-        display: table;
-        clear: both;
+    .row1 {
+        flex: 5;
     }
 
     /* Abby's staff page */
