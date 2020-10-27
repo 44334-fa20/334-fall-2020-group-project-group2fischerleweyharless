@@ -234,18 +234,19 @@
     height: 400px; }
 
   /* Abby's code for 2 column layout */
-  .column1 {
-    float: left;
-    width: 100%;
-    margin: auto;
-    padding: 50px 0px 0px;
-    display: table-cell; }
+   #row1 {
+        display:flex;
+        flex-direction: row;
+    }
+    .column1 {
+        flex: 5;
+    }
 
-  /* Clear floats after the columns */
-  .row1:after {
-    content: "";
-    display: table;
-    clear: both; }
+    /* Clear floats after the columns */
+    .row1 {
+        flex: 5;
+    }
+    
     h2{ text-align: center;}
   /* Abby's staff page */
   * {
