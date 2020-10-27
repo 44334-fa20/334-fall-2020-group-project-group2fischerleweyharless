@@ -297,10 +297,9 @@ $grey-color: #E5E5E5;
 
     /* Abby's code for 2 column layout */
     .column1 {
-        float: left;
+        float: center;
         width: 100%;
         margin: auto;
-        padding: 15px 10px 50px;
         display: table-cell;
     }
 
@@ -380,7 +379,7 @@ $grey-color: #E5E5E5;
     .column1 {
         width: 100%;
         margin: auto;
-        padding: 50px 10px 10px;
+        
         display: table-cell;
         border: 1px solid #000;
     }
@@ -392,7 +391,7 @@ $grey-color: #E5E5E5;
         display: table;
         clear: both;
     }
-
+    a{ text-de}
     #PeoplePics img {
         width: 100%;
     }
@@ -605,7 +604,7 @@ $grey-color: #E5E5E5;
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     #mobile-nav {
-        dislay: inline;
+        display: inline;
     }
 
     .social-icons {
