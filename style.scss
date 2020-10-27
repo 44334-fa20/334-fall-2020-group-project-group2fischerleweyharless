@@ -296,19 +296,18 @@ $grey-color: #E5E5E5;
     }
 
     /* Abby's code for 2 column layout */
+    #row1 {
+        display:flex;
+        flex-direction: row;
+    }
     .column1 {
-        float: center;
-        width: 100%;
-        margin: auto;
-        display: table-cell;
+        flex: 5;
     }
 
 
     /* Clear floats after the columns */
-    .row1:after {
-        content: "";
-        display: table;
-        clear: both;
+    .row1 {
+        flex: 5;
     }
 
     /* Abby's staff page */
@@ -334,7 +333,7 @@ $grey-color: #E5E5E5;
     /* Create four equal columns that floats next to each other */
     .column4 {
         float: left;
-        width: 25%
+        width: 25%;
     }
 
     /* Clear floats after rows */
@@ -391,7 +390,6 @@ $grey-color: #E5E5E5;
         display: table;
         clear: both;
     }
-    a{ text-de}
     #PeoplePics img {
         width: 100%;
     }
@@ -410,6 +408,7 @@ $grey-color: #E5E5E5;
 
     #abt-pg-card p {
         margin: 0px 50px 0px 50px;
+
     }
 
     #abt-pg-card #catering-button {
@@ -597,7 +596,6 @@ $grey-color: #E5E5E5;
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (max-width: 600px) {
-
 
     .column4 {
         width: 100%;
