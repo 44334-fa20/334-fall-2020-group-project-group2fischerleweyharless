@@ -465,13 +465,13 @@ $grey-color: #E5E5E5;
 @media only screen and (max-width: 1700px) {
 
     nav ul li {
-        font-size: 1em;
+        font-size:1.25em;
 
     }
 }
 
 @media only screen and (max-width: 1500px) {
-
+   
     nav ul li {
         font-size: 1em;
     }
@@ -516,18 +516,6 @@ $grey-color: #E5E5E5;
         width: 100%;
     }
 
-    #hero-image {
-        display: none;
-    }
-
-    .left-button {
-        display: none;
-    }
-
-    #hero-iamge .left-button {
-        display: none;
-    }
-
     #wrapper {
         width: 80%;
         margin: auto;
@@ -541,6 +529,17 @@ $grey-color: #E5E5E5;
 }
 
 @media only screen and (max-width: 1200px) {
+    #hero-image {
+        display: none;
+    }
+
+    .left-button {
+        display: none;
+    }
+
+    #hero-iamge .left-button {
+        display: none;
+    }
     #wrapper {
         width: 90%;
     }

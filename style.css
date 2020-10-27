@@ -370,7 +370,7 @@
     margin: auto; } }
 @media only screen and (max-width: 1700px) {
   nav ul li {
-    font-size: 1em; } }
+    font-size: 1.25em; } }
 @media only screen and (max-width: 1500px) {
   nav ul li {
     font-size: 1em; }
@@ -402,6 +402,14 @@
   nav {
     width: 100%; }
 
+  #wrapper {
+    width: 80%;
+    margin: auto; }
+
+  #col-home {
+    width: 50%;
+    margin: 0px 10px 0px 10px; } }
+@media only screen and (max-width: 1200px) {
   #hero-image {
     display: none; }
 
@@ -411,14 +419,6 @@
   #hero-iamge .left-button {
     display: none; }
 
-  #wrapper {
-    width: 80%;
-    margin: auto; }
-
-  #col-home {
-    width: 50%;
-    margin: 0px 10px 0px 10px; } }
-@media only screen and (max-width: 1200px) {
   #wrapper {
     width: 90%; }
 
