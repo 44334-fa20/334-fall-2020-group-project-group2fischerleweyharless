@@ -238,7 +238,7 @@
     float: left;
     width: 100%;
     margin: auto;
-    padding: 15px 10px 50px;
+    padding: 50px 0px 0px;
     display: table-cell; }
 
   /* Clear floats after the columns */
@@ -246,7 +246,7 @@
     content: "";
     display: table;
     clear: both; }
-
+    h2{ text-align: center;}
   /* Abby's staff page */
   * {
     box-sizing: border-box; }
@@ -469,7 +469,7 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   #mobile-nav {
-    dislay: inline; }
+    display: inline; }
 
   .social-icons {
     display: none; }
