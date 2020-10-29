@@ -296,9 +296,10 @@ $grey-color: #E5E5E5;
     }
 
     /* Abby's code for 2 column layout */
-    #row1 {
+    #row1, 
         display:flex;
         flex-direction: row;
+        border: 1px solid #000;
     }
     .column1 {
         flex: 5;
@@ -308,45 +309,6 @@ $grey-color: #E5E5E5;
     /* Clear floats after the columns */
     .row1 {
         flex: 5;
-    }
-
-    /* Abby's staff page */
-    * {
-        box-sizing: border-box;
-    }
-
-    h1 {
-        font-size: 50px;
-        word-break: break-all;
-    }
-
-    .row {
-        margin: 8px -16px;
-    }
-
-    /* Add padding BETWEEN each column (if you want) */
-    .row,
-    .row > .column4 {
-        padding: 8px;
-    }
-
-    /* Create four equal columns that floats next to each other */
-    .column4 {
-        float: left;
-        width: 25%;
-    }
-
-    /* Clear floats after rows */
-    .row:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
-
-    /* Content */
-    .content {
-        background-color: white;
-        padding: 10px;
     }
 
     .social-icons li {
@@ -388,10 +350,10 @@ $grey-color: #E5E5E5;
     .column1 {
         width: 100%;
         margin: auto;
-        
         display: table-cell;
-        border: 1px solid #000;
-    }
+        border: 1px solid #000;}
+    
+   
 
     /* Clear floats after the columns */
 
