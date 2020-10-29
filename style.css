@@ -249,7 +249,17 @@
     a { text-decoration: none;}
     .imgstaff { text-align: Right;}
     }
-  
+/* Abby's Staff page */
+.row4 {
+  display: flex;
+}
+
+.column4 {
+  flex: 33.33%;
+  padding: 5px;
+}
+  /* End of Staff page */
+
   .social-icons li {
     display: inline-block; }
 
@@ -380,8 +390,12 @@
     margin: auto; }
 
   #col-home {
+    display:flex;
     width: 50%;
-    margin: 0px 10px 0px 10px; } }
+    margin: 0px 10px 0px 10px; 
+    } }
+    
+
 @media only screen and (max-width: 1200px) {
   #hero-image {
     display: none; }
