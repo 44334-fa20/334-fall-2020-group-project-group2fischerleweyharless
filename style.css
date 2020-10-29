@@ -476,6 +476,15 @@
   .social-icons {
     display: none; }
 
+  .social-icons ul li a i:visited {
+    color: white; }
+
+  .social-icons ul li a i:hover {
+    color: white; }
+    
+  .social-icons ul li a i:active {
+    color: white; }
+
   #image-container {
     width: 70%; }
 
