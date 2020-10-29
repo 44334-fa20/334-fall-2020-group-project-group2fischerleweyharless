@@ -249,38 +249,7 @@
     a { text-decoration: none;}
     .imgstaff { text-align: Right;}
     }
-  /* Abby's staff page */
-  * {
-    box-sizing: border-box; }
-
-  h1 {
-    font-size: 50px;
-    word-break: break-all; }
-
-  .row {
-    margin: 8px -16px; }
-
-  /* Add padding BETWEEN each column (if you want) */
-  .row,
-  .row > .column4 {
-    padding: 8px; }
-
-  /* Create four equal columns that floats next to each other */
-  .column4 {
-    float: left;
-    width: 25%; }
-
-  /* Clear floats after rows */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both; }
-
-  /* Content */
-  .content {
-    background-color: white;
-    padding: 10px; }
-
+  
   .social-icons li {
     display: inline-block; }
 
