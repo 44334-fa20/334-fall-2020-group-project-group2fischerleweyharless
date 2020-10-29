@@ -246,9 +246,8 @@
     flex: 5; }
 
     /*Abby's About page */
-    a {
-        text-decoration: none;}
-    
+    a { text-decoration: none;}
+    .imgstaff { text-align: Right;}
     }
   /* Abby's staff page */
   * {
