@@ -308,6 +308,7 @@
     }
 
     /*Abby's About page */
+
     a {
         text-decoration: none;
     }
@@ -361,6 +362,14 @@ h1 {
 .social-icons ul li a :visited {
     color: white;
 }
+=======
+    a { text-decoration: none;}
+    .imgstaff { text-align: Right;}
+    }
+  
+  .social-icons li {
+    display: inline-block; }
+>>>>>>> bd3234261a1e89b5500e314df60df770fa9f16a2
 
 .social-icons ul li a :hover {
     color: white;
