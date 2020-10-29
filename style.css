@@ -193,8 +193,13 @@
         display: flex;
         align-items: top;
         justify-content: center;
+        overflow: hidden;
     }
-
+/*cynthia's code to fix the heigth on the cards on the home page*/
+    #frame-layout-2 .col-home {
+        flex:1;
+    }
+    
     #spacer {
         height: 2px;
         background-color: #E5E5E5;
@@ -282,7 +287,7 @@
         background-color: #E5E5E5;
         font-size: 1.5em;
         margin-left: 40px;
-        height: 100%;
+        /*height: 100%;*/
         width: 33%;
         padding: 25px;
     }
