@@ -401,8 +401,11 @@
     width: 50%;
     margin: 0px 10px 0px 10px; }
 
+  #paragraph-container {
+    font-size: 1em; }
+
   #image-container img {
-    width: 200px; } }
+    width: 300px; } }
 @media only screen and (max-width: 1200px) {
   #hero-image {
     display: none; }
