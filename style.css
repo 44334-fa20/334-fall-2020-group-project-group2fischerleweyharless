@@ -111,19 +111,6 @@
   #black-bar p {
     margin-left: 20px; }
 
-  #black-bar a {
-    color: white;
-    text-decoration: none; }
-
-  #black-bar a:visited {
-    color: white; }
-
-  #black-bar i:visited {
-    color: white; }
-
-  #social-icons a i:visited {
-    color: white; }
-
   #footer {
     display: flex;
     background-color: black;
@@ -200,7 +187,7 @@
     text-align: center; }
 
   #image-container img {
-    width: 400px;
+    width: 500px;
     position: relative;
     padding: 50px; }
 
@@ -239,6 +226,7 @@
     font-size: 1.5em;
     margin-left: 40px;
     height: 100%;
+    width: 33%;
     padding: 25px; }
 
   .col-home img {
@@ -248,8 +236,7 @@
   /* Abby's code for 2 column layout */
   #row1 {
     display: flex;
-    flex-direction: row;
-    border: 1px solid #000; }
+    flex-direction: row; }
 
   .column1 {
     flex: 5; }
@@ -258,18 +245,23 @@
   .row1 {
     flex: 5; }
 
+    /*Abby's About page */
+    a { text-decoration: none;}
+    .imgstaff { text-align: Right;}
+    }
+/* Abby's Staff page */
+.row4 {
+  display: flex;
+}
+
+.column4 {
+  flex: 33.33%;
+  padding: 5px;
+}
+  /* End of Staff page */
+
   .social-icons li {
-    display: inline-block;
-    color: white; }
-
-  .social-icons ul li a i:visited {
-    color: white; }
-
-  .social-icons ul li a i:hover {
-    color: white; }
-
-  .social-icons ul li a i:active {
-    color: white; }
+    display: inline-block; }
 
   #catering-nav {
     margin: auto;
@@ -399,19 +391,10 @@
 
   #col-home {
     width: 50%;
-    margin: 0px 10px 0px 10px; }
+    margin: 0px 10px 0px 10px; 
+    } }
+    
 
-  #paragraph-container {
-    font-size: 1em; }
-
-  #image-container img {
-    width: 300px; }
-
-  #col-1 ul li {
-    font-size: .75em; }
-
-  .col-home {
-    font-size: 1em; } }
 @media only screen and (max-width: 1200px) {
   #hero-image {
     display: none; }
@@ -472,7 +455,15 @@
     display: inline; }
 
   .social-icons {
-    display: none;
+    display: none; }
+
+  .social-icons ul li a i:visited {
+    color: white; }
+
+  .social-icons ul li a i:hover {
+    color: white; }
+    
+  .social-icons ul li a i:active {
     color: white; }
 
   #image-container {
