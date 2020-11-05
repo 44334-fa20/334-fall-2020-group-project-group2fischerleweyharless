@@ -78,7 +78,7 @@ $grey-color: #E5E5E5;
         z-index: 2;
         transition: color .25s ease-in-out;
     }
-
+    
     .navbar-fixed-top {
         top: 0;
         z-index: 100;
@@ -133,7 +133,7 @@ $grey-color: #E5E5E5;
 
     #black-bar {
         background-color: black;
-        color: white;
+        color: white !important;
         display: flex;
         font-weight: bold;
         height: 50px;
@@ -142,20 +142,10 @@ $grey-color: #E5E5E5;
     #black-bar p {
         margin-left: 20px;
     }
-    #black-bar a{
-        color: white;
-        text-decoration: none;
-    }
-    #black-bar a:visited{
-        color: white;
-    }
-    #black-bar i:visited{
-        color: white;
-    }
+    
     #social-icons a i:visited{
         color: white;
     }
-
     #footer {
         display: flex;
         background-color: $footer-color;

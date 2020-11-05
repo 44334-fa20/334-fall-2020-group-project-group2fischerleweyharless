@@ -157,21 +157,13 @@
 /*cynthia's code to fix the height on the cards on the home page*/
     #frame-layout-2 .col-home {
         flex:1;
+        
     }
     
     #spacer {
         height: 2px;
         background-color: #E5E5E5;
     }
-
-  #frame-layout-2 {
-    display: flex;
-    align-items: top;
-    justify-content: center; }
-
-  #spacer {
-    height: 2px;
-    background-color: #E5E5E5; }
 
   #catering-button {
     padding: 15px;
