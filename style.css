@@ -192,13 +192,13 @@
 
   #gallery-flex {
     display: flex;
-    flex-flow: row wrap; }
+    flex-flow: row wrap;}
 
   #gallery-flex img {
     animation: fadeInAnimation ease 2s;
     width: 25%;
     height: 25%;
-    padding: 25px; }
+    padding: 25px;}
 
   #text-align {
     text-align: center; }
