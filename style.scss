@@ -142,6 +142,19 @@ $grey-color: #E5E5E5;
     #black-bar p {
         margin-left: 20px;
     }
+    #black-bar a{
+        color: white;
+        text-decoration: none;
+    }
+    #black-bar a:visited{
+        color: white;
+    }
+    #black-bar i:visited{
+        color: white;
+    }
+    #social-icons a i:visited{
+        color: white;
+    }
 
     #footer {
         display: flex;
@@ -239,7 +252,7 @@ $grey-color: #E5E5E5;
 
 
     #image-container img {
-        width: 500px;
+        width: 400px;
         position: relative;
         padding: 50px;
     }
@@ -247,6 +260,9 @@ $grey-color: #E5E5E5;
     #paragraph-container {
         padding: 50px;
         font-size: 1.5em;
+        background-color: $grey-color;
+        
+     #paragraph-containerAb {
         background-color: $grey-color;
     }
 
@@ -286,7 +302,6 @@ $grey-color: #E5E5E5;
         font-size: 1.5em;
         margin-left: 40px;
         height: 100%;
-        width: 33%;
         padding: 25px;
     }
 
@@ -296,7 +311,7 @@ $grey-color: #E5E5E5;
     }
 
     /* Abby's code for 2 column layout */
-    #row1, 
+    #row1{
         display:flex;
         flex-direction: row;
         border: 1px solid #000;
@@ -497,6 +512,18 @@ $grey-color: #E5E5E5;
     #col-home {
         width: 50%;
         margin: 0px 10px 0px 10px;
+    }
+    #paragraph-container{
+        font-size: 1em;
+    }
+    #image-container img{
+        width: 300px;
+    }
+    #col-1 ul li{
+        font-size: .75em;
+    }
+    .col-home{
+        font-size: 1em;
     }
 
 }
