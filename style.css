@@ -148,14 +148,13 @@
     align-items: center;
     animation: fadeInAnimation ease 1.5s; }
 
-<<<<<<< HEAD
     #frame-layout-2 {
         display: flex;
         align-items: top;
         justify-content: center;
         overflow: hidden;
     }
-/*cynthia's code to fix the heigth on the cards on the home page*/
+/*cynthia's code to fix the height on the cards on the home page*/
     #frame-layout-2 .col-home {
         flex:1;
     }
@@ -164,7 +163,6 @@
         height: 2px;
         background-color: #E5E5E5;
     }
-=======
   #frame-layout-2 {
     display: flex;
     align-items: top;
@@ -173,7 +171,6 @@
   #spacer {
     height: 2px;
     background-color: #E5E5E5; }
->>>>>>> 689cd9c31d96681fcf3c6c606e38111c06b4627d
 
   #catering-button {
     padding: 15px;
