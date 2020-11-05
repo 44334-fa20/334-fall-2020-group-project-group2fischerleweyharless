@@ -190,15 +190,17 @@
     cursor: pointer;
     background-color: #5E5D5C; }
 
-  #gallery-flex {
+  .testing {
     display: flex;
-    flex-flow: row wrap;}
+    justify-content: space-evenly;
+    flex-wrap: wrap; }
 
   #gallery-flex img {
+    display: flex;
     animation: fadeInAnimation ease 2s;
     width: 25%;
     height: 25%;
-    padding: 25px;}
+    padding: 25px; }
 
   #text-align {
     text-align: center; }
