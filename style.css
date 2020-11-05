@@ -56,11 +56,16 @@
     z-index: 2;
     transition: color .25s ease-in-out; }
 
-  .navbar-fixed-top {
-    top: 0;
-    z-index: 100;
-    position: fixed;
-    width: 100%; }
+    /*
+    .navbar-fixed-top {
+        top: 0;
+        z-index: 100;
+        position: fixed;
+        width: 100%;
+    }
+*/
+  .topnav {
+    display: none; }
 
   #hero-image {
     position: relative; }
@@ -103,13 +108,24 @@
 
   #black-bar {
     background-color: black;
-    color: white;
+    color: white !important;
     display: flex;
     font-weight: bold;
     height: 50px; }
 
   #black-bar p {
-    margin-left: 20px; }
+    margin-left: 20px;
+    color: white; }
+
+  #black-bar a {
+    color: white;
+    text-decoration: none; }
+
+  #black-bar p a:visited {
+    color: white; }
+
+  #social-icons i a:visited {
+    color: white; }
 
   #footer {
     display: flex;
@@ -148,22 +164,14 @@
     align-items: center;
     animation: fadeInAnimation ease 1.5s; }
 
-    #frame-layout-2 {
-        display: flex;
-        align-items: top;
-        justify-content: center;
-        overflow: hidden;
-    }
-/*cynthia's code to fix the height on the cards on the home page*/
-    #frame-layout-2 .col-home {
-        flex:1;
-        
-    }
-    
-    #spacer {
-        height: 2px;
-        background-color: #E5E5E5;
-    }
+  #frame-layout-2 {
+    display: flex;
+    align-items: top;
+    justify-content: center; }
+
+  #spacer {
+    height: 2px;
+    background-color: #E5E5E5; }
 
   #catering-button {
     padding: 15px;
@@ -195,13 +203,16 @@
     text-align: center; }
 
   #image-container img {
-    width: 500px;
+    width: 400px;
     position: relative;
     padding: 50px; }
 
   #paragraph-container {
     padding: 50px;
     font-size: 1.5em;
+    background-color: #E5E5E5; }
+
+  #paragraph-containerAb {
     background-color: #E5E5E5; }
 
   #paragraph-container h2 {
@@ -233,9 +244,9 @@
     background-color: #E5E5E5;
     font-size: 1.5em;
     margin-left: 40px;
-    height: 100%;
-    width: 33%;
-    padding: 25px; }
+    margin-right: 40px;
+    padding: 25px;
+    width: 33%; }
 
   .col-home img {
     width: 100%;
@@ -244,7 +255,8 @@
   /* Abby's code for 2 column layout */
   #row1 {
     display: flex;
-    flex-direction: row; }
+    flex-direction: row;
+    border: 1px solid #000; }
 
   .column1 {
     flex: 5; }
@@ -253,23 +265,18 @@
   .row1 {
     flex: 5; }
 
-    /*Abby's About page */
-    a { text-decoration: none;}
-    .imgstaff { text-align: Right;}
-    }
-/* Abby's Staff page */
-.row4 {
-  display: flex;
-}
-
-.column4 {
-  flex: 33.33%;
-  padding: 5px;
-}
-  /* End of Staff page */
-
   .social-icons li {
-    display: inline-block; }
+    display: inline-block;
+    color: white; }
+
+  .social-icons ul li a i:visited {
+    color: white; }
+
+  .social-icons ul li a i:hover {
+    color: white; }
+
+  .social-icons ul li a i:active {
+    color: white; }
 
   #catering-nav {
     margin: auto;
@@ -399,9 +406,19 @@
 
   #col-home {
     width: 50%;
-      margin: 0px 10px 0px 10px; } }
-    
+    margin: 0px 10px 0px 10px; }
 
+  #paragraph-container {
+    font-size: 1em; }
+
+  #image-container img {
+    width: 300px; }
+
+  #col-1 ul li {
+    font-size: .75em; }
+
+  .col-home {
+    font-size: 1em; } }
 @media only screen and (max-width: 1200px) {
   #hero-image {
     display: none; }
@@ -462,15 +479,7 @@
     display: inline; }
 
   .social-icons {
-    display: none; }
-
-  .social-icons ul li a i:visited {
-    color: white; }
-
-  .social-icons ul li a i:hover {
-    color: white; }
-    
-  .social-icons ul li a i:active {
+    display: none;
     color: white; }
 
   #image-container {
