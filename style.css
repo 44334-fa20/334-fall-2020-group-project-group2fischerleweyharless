@@ -399,7 +399,7 @@
     margin: auto; }
 
   #black-bar i {
-    padding-left: 15px; } }
+      padding-left: 15px; } 
 @media only screen and (max-width: 1700px) {
   nav ul li {
     font-size: 1.25em; } }
