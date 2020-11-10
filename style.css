@@ -167,7 +167,9 @@
   #frame-layout-2 {
     display: flex;
     align-items: top;
-    justify-content: center; }
+    justify-content: center;
+     height: 100%;
+    margin-bottom: 16px;}
 
   #abt-pg-layout {
     display: flex;
@@ -531,7 +533,8 @@
     display: none; }
 
   #frame-layout-2 {
-    flex-direction: column; }
+    flex-direction: column; 
+    }
 
   #col-home {
     padding-top: 20px; }
