@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 $footer-color: black;
 $scrumptious: #9FBEDD;
 $scrumptious-light: #e4f0fd;
@@ -7,7 +14,7 @@ $grey-color: #E5E5E5;
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 
 /* Extra large devices (large laptops and desktops, 1920px and up) */
-@media only screen and (max-width: 1920px) {
+@media only screen and (max-width: 2000px) {
 
     html,
     body {
@@ -18,6 +25,16 @@ $grey-color: #E5E5E5;
     #mobile-nav {
 
         display: none;
+    }
+
+    @-webkit-keyframes fadeInAnimation {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
     }
 
     @keyframes fadeInAnimation {
@@ -44,9 +61,14 @@ $grey-color: #E5E5E5;
     }
 
     #header {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        align-items: center;
-        justify-content: space-around;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
     }
 
     .a-tag {
@@ -76,6 +98,8 @@ $grey-color: #E5E5E5;
         background-color: $scrumptious-light;
         cursor: pointer;
         z-index: 2;
+        -webkit-transition: color .25s ease-in-out;
+        -o-transition: color .25s ease-in-out;
         transition: color .25s ease-in-out;
     }
 
@@ -109,7 +133,8 @@ $grey-color: #E5E5E5;
         color: white;
         font-size: 2em;
         width: 25%;
-        animation: fadeInAnimation ease 1.5s;
+        -webkit-animation: fadeInAnimation ease 1.5s;
+                animation: fadeInAnimation ease 1.5s;
     }
 
     #bold-filter {
@@ -126,12 +151,15 @@ $grey-color: #E5E5E5;
         padding: 10px 20px;
         border: 5px solid white;
         font-size: 1.25em;
-        animation: fadeInAnimation ease 1.5s;
+        -webkit-animation: fadeInAnimation ease 1.5s;
+                animation: fadeInAnimation ease 1.5s;
     }
 
     #hero-image .left-button:hover {
         cursor: pointer;
         background-color: transparent;
+        -webkit-transition: background-color .15s ease-in-out;
+        -o-transition: background-color .15s ease-in-out;
         transition: background-color .15s ease-in-out;
         color: white;
     }
@@ -139,6 +167,8 @@ $grey-color: #E5E5E5;
     #black-bar {
         background-color: black;
         color: white !important;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         font-weight: bold;
         height: 50px;
@@ -163,11 +193,16 @@ $grey-color: #E5E5E5;
     }
 
     #footer {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         background-color: $footer-color;
         color: white;
-        justify-content: space-around;
-        align-items: center;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
         border-top: 10px solid $scrumptious;
         padding-top: 30px;
         font-size: 1.25em;
@@ -204,23 +239,41 @@ $grey-color: #E5E5E5;
     }
 
     #frame-layout {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        align-items: center;
-        animation: fadeInAnimation ease 1.5s;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-animation: fadeInAnimation ease 1.5s;
+                animation: fadeInAnimation ease 1.5s;
 
     }
 
     #frame-layout-2 {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        align-items: top;
-        justify-content: center;
+        -webkit-box-align: top;
+            -ms-flex-align: top;
+                align-items: top;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
 
     #abt-pg-layout {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-wrap: wrap;
-        align-items: top;
-        justify-content: center;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-align: top;
+            -ms-flex-align: top;
+                align-items: top;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
 
     #spacer {
@@ -242,14 +295,22 @@ $grey-color: #E5E5E5;
     }
 
     .testing {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
+        -webkit-box-pack: space-evenly;
+            -ms-flex-pack: space-evenly;
+                justify-content: space-evenly;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
     }
 
     #gallery-flex img {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        animation: fadeInAnimation ease 2s;
+        -webkit-animation: fadeInAnimation ease 2s;
+                animation: fadeInAnimation ease 2s;
         width: 25%;
         height: 25%;
         padding: 25px;
@@ -347,19 +408,28 @@ $grey-color: #E5E5E5;
 
     /* Abby's code for 2 column layout */
     #row1 {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: row;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
         border: 1px solid #000;
     }
 
     .column1 {
-        flex: 5;
+        -webkit-box-flex: 5;
+            -ms-flex: 5;
+                flex: 5;
     }
 
 
     /* Clear floats after the columns */
     .row1 {
-        flex: 5;
+        -webkit-box-flex: 5;
+            -ms-flex: 5;
+                flex: 5;
     }
 
     .social-icons li {
@@ -398,6 +468,8 @@ $grey-color: #E5E5E5;
     }
 
     .column {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
     }
 
@@ -423,6 +495,8 @@ $grey-color: #E5E5E5;
     }
 
     #abt-pg-card {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         margin: auto;
         font-size: 1.75em;
@@ -468,7 +542,8 @@ $grey-color: #E5E5E5;
         padding: 12px;
         border: 1px solid #ccc;
         border-radius: 4px;
-        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
         margin-top: 6px;
         margin-bottom: 16px;
         resize: vertical;
@@ -531,7 +606,8 @@ $grey-color: #E5E5E5;
     }
 
     #frame-layout {
-        flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
     }
 
     .img-3 {
@@ -677,7 +753,10 @@ $grey-color: #E5E5E5;
     }
 
     #frame-layout {
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
 
     #small-whitespace {
@@ -693,7 +772,10 @@ $grey-color: #E5E5E5;
     }
 
     #frame-layout-2 {
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
 
     #col-home {
@@ -709,7 +791,9 @@ $grey-color: #E5E5E5;
     }
 
     .topnav a {
-        align-items: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
 
     #black-bar {
