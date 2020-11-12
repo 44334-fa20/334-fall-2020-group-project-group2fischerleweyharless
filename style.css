@@ -175,7 +175,7 @@
     flex-wrap: wrap;
     align-items: top;
     justify-content: center;
-    height: 130vh;
+    height: 550vh;
     margin-bottom: auto;
     }
   
@@ -272,8 +272,7 @@
     margin-top: 50px;
     margin-right: 40px;
     padding: 25px;
-    width: 33%;
-    height: 100%; }
+    width: 33%; }
 
   .col-abt img {
     width: 100%;
