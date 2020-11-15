@@ -13,8 +13,6 @@ $grey-color: #E5E5E5;
 @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 
-/* Extra large devices (large laptops and desktops, 1920px and up) */
-@media only screen and (max-width: 2000px) {
 
     html,
     body {
@@ -583,7 +581,6 @@ $grey-color: #E5E5E5;
     #black-bar i {
         padding-left: 15px;
     }
-}
 
 @media only screen and (max-width: 1700px) {
 
@@ -829,3 +826,4 @@ $grey-color: #E5E5E5;
             width: 80%;
         }
     }
+}
