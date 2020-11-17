@@ -733,17 +733,11 @@ $grey-color: #E5E5E5;
       
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 600px) {
-
-    .column4 {
-        width: 100%;
-    }
-
-    }
-
     /* Extra small devices (phones, 600px and down) */
     @media only screen and (max-width: 600px) {
+        .column4 {
+            width: 100%;
+        }
         #mobile-nav {
             display: inline;
         }
@@ -786,7 +780,7 @@ $grey-color: #E5E5E5;
             -webkit-box-direction: normal;
             -ms-flex-direction: column;
             flex-direction: column;
-
+        }
             #abt-pg-layout {
                 display: flex;
                 flex-wrap: wrap;
@@ -829,4 +823,3 @@ $grey-color: #E5E5E5;
                 width: 80%;
             }
         }
-}
