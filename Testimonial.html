@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="en">
 
@@ -10,8 +10,8 @@
     <meta name="author" content="SitePoint">
     <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-    <link rel="icon" type="image/png" href="ico.png" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="ico.png">
 
 </head>
 
@@ -32,14 +32,14 @@
 
     <div id="wrapper">
         <div id="header">
-            <a class="a-tag" href="index.html"><img src="ScrumptiousCateringLogo.jpg" class="logo"></a>
+            <a class="a-tag" href="index.html"><img src="ScrumptiousCateringLogo.jpg"  class="logo" alt="Scrumptious Catering Logo"></a>
             <nav>
                 <ul>
                     <li>
                         <a href="index.html">Home</a>
                     </li>
                     <li>
-                        <a href="about.html">About</a>
+                        <a href="About.html">About</a>
                     </li>
                     <li>
                         <a href="catering.html">Catering</a>
@@ -56,10 +56,10 @@
                 </ul>
             </nav>
             <div class="topnav">
-                <a class="a-tag" href="index.html"><img src="ScrumptiousCateringLogo.jpg" class="logo"></a>
+                <a class="a-tag" href="index.html"><img src="ScrumptiousCateringLogo.jpg" alt="Scrumptious Catering Logo" class="logo"></a>
                 <div id="myLinks">
                     <a href="index.html">Home</a>
-                    <a href="about.html">About</a>
+                    <a href="About.html">About</a>
                     <a href="catering.html">Catering</a>
                     <a href="order.html">Order</a>
                     <a href="gallery.html">Gallery</a>
@@ -71,12 +71,12 @@
             </div>
         </div>
     </div>
-    <div id="wrapper">
+    <div class="wrapper">
         <div id="whitespace"></div>
         <h2 class="catering-title" id="text-align">Welcome to the Testimonial page!</h2>
         <p class="catering-paragraph">Here is a place where you can submit your ratings and comments to our website. We are grateful to have such a welcoming community. Thank you for your reviews! </p>
 
-        <div id="whitespace"></div>
+        
         <form id="form-order" action="/action_page.php">
             <label for="fname">First Name</label>
             <input type="text" id="fname" name="firstname" placeholder="Your name..">
@@ -104,7 +104,7 @@
                     Scrumptious Catering is your place to find delicious, professionally delivered catering without having to break the bank. Give a call today or contact us to find out more about how we can make your event truly special.
                 </li>
                 <li>
-                    <img id="ratings-footer" src="ratings.png">
+                    <img id="ratings-footer" alt="Ratings" src="ratings.png">
                 </li>
             </ul>
         </div>
@@ -139,18 +139,8 @@
 
     </div>
     <p id="footer-caption">Nolan Harless. Cynthia Fischer. Abby Lewey</p>
-    <script src="js/scripts.js"></script>
+   
 </body>
-<script>
-    function myFunction() {
-        var x = document.getElementById("myLinks");
-        if (x.style.display === "block") {
-            x.style.display = "none";
-        } else {
-            x.style.display = "block";
-        }
-    }
 
-</script>
 
 </html>
