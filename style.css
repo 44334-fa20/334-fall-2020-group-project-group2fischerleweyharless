@@ -333,6 +333,7 @@ nav ul li a:hover {
     margin-right: 40px;
     padding: 25px;
     width: 33%;
+   
 }
 
 .col-abt img {
@@ -543,8 +544,9 @@ textarea {
     #wrapper {
         width: 80%;
         margin: auto;
+        
     }
-
+   
     #col-home {
         width: 50%;
         margin: 0px 10px 0px 10px;
